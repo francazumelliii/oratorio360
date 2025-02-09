@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/County.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Oratory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Region.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Town.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/abstract_entities/AbstractEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/payload/request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/payload/request/SignupRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/payload/response/UserInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/payload/response/UserInfoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/repository/RefreshTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/repository/RefreshTokenRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/security/jwt/AuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/security/jwt/AuthTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/security/services/RefreshTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/security/services/RefreshTokenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/security/services/UserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/security/services/UserDetailsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/security/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/security/services/UserDetailsServiceImpl.java" afterDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] authentication methods">
       <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,8 +93,73 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739098846671</updated>
-      <workItem from="1739098847763" duration="5237000" />
+      <workItem from="1739098847763" duration="5389000" />
     </task>
+    <task id="LOCAL-00001" summary="[NEW] AbstractEntity with Id and TS">
+      <option name="closed" value="true" />
+      <created>1739122027511</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739122027511</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[FIX] jdbc properties">
+      <option name="closed" value="true" />
+      <created>1739122043757</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739122043757</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[FIX] role authorities storage">
+      <option name="closed" value="true" />
+      <created>1739122056334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739122056334</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[FIX] UserDetailsImpl injection">
+      <option name="closed" value="true" />
+      <created>1739122069072</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739122069072</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[NEW] findByUser">
+      <option name="closed" value="true" />
+      <created>1739122081790</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739122081790</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[FIX] find token before adding new">
+      <option name="closed" value="true" />
+      <created>1739122099601</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739122099601</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[NEW] geolocation models">
+      <option name="closed" value="true" />
+      <created>1739122124397</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739122124397</updated>
+    </task>
+    <task id="LOCAL-00008" summary="[FIX] authentication methods">
+      <option name="closed" value="true" />
+      <created>1739122141755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739122141755</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +175,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[NEW] AbstractEntity with Id and TS" />
+    <MESSAGE value="[FIX] jdbc properties" />
+    <MESSAGE value="[FIX] role authorities storage" />
+    <MESSAGE value="[FIX] UserDetailsImpl injection" />
+    <MESSAGE value="[NEW] findByUser" />
+    <MESSAGE value="[FIX] find token before adding new" />
+    <MESSAGE value="[NEW] geolocation models" />
+    <MESSAGE value="[FIX] authentication methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] authentication methods" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
