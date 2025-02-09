@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] authentication methods">
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] jdbc properties">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/enums/ERole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/abstract_entities/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/abstract_entities/AbstractEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/repository/RoleRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739098846671</updated>
-      <workItem from="1739098847763" duration="5389000" />
+      <workItem from="1739098847763" duration="5923000" />
     </task>
     <task id="LOCAL-00001" summary="[NEW] AbstractEntity with Id and TS">
       <option name="closed" value="true" />
@@ -159,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739122141755</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[FIX] jdbc properties">
+      <option name="closed" value="true" />
+      <created>1739122163878</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739122163878</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,14 +193,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[NEW] AbstractEntity with Id and TS" />
-    <MESSAGE value="[FIX] jdbc properties" />
     <MESSAGE value="[FIX] role authorities storage" />
     <MESSAGE value="[FIX] UserDetailsImpl injection" />
     <MESSAGE value="[NEW] findByUser" />
     <MESSAGE value="[FIX] find token before adding new" />
     <MESSAGE value="[NEW] geolocation models" />
     <MESSAGE value="[FIX] authentication methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] authentication methods" />
+    <MESSAGE value="[FIX] jdbc properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] jdbc properties" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
