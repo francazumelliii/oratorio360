@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/County.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Oratory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Town.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/abstract_entities/AbstractEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/controllers/AuthController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/User.java" afterDir="false" />
@@ -22,8 +31,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "francazumelliii"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8a8cb5c0-a379-45c4-beb2-8558325315ff" />
+        <option name="url" value="https://github.com/francazumelliii/oratorio360.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,6 +62,9 @@
   "associatedIndex": 6
 }]]></component>
   <component name="ProjectId" id="2snkheqfg0NrW9ieecli13WxPwX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -47,6 +80,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
@@ -78,12 +112,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739098846671</updated>
-      <workItem from="1739098847763" duration="3333000" />
+      <workItem from="1739098847763" duration="5237000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
