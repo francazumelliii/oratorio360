@@ -2,6 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/spring-security-refresh-token-jwt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-oratorio360-be" vcs="Git" />
   </component>
 </project>
