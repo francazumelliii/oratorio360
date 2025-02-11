@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] jdbc properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/enums/ERole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/abstract_entities/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/abstract_entities/AbstractEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/repository/RoleRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,19 +15,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "francazumelliii"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;francazumelliii&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -46,9 +40,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2snkheqfg0NrW9ieecli13WxPwX" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -69,6 +63,7 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Oratorio360BeApplication.executor": "Run",
     "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
@@ -84,9 +79,9 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="SpringSecurityRefreshTokenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Oratorio360BeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-security-refresh-token" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bezkoder.spring.security.jwt.SpringSecurityRefreshTokenApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.oratorio360.spring.jwt.Oratorio360BeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
