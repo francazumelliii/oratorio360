@@ -4,15 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] jdbc properties">
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] findByUuid method">
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/Oratorio360BeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/ActivityInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/EventCustomers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/EventUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Space.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Target.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/enums/ERole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/abstract_entities/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/models/abstract_entities/AbstractEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-refresh-token-jwt/src/main/java/com/bezkoder/spring/security/jwt/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/SpringSecurityRefreshTokenApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/advice/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/advice/TokenControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/TokenControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/enums/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/enums/ERole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/exception/TokenRefreshException.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/exception/TokenRefreshException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/County.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/County.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/Oratory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Oratory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/RefreshToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/RefreshToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Region.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/Town.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Town.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/abstract_entities/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/abstract_entities/AbstractEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/payload/request/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/payload/request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SignupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/payload/response/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/MessageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/payload/response/UserInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/UserInfoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/repository/OratoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/OratoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/repository/RefreshTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/RefreshTokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/repository/TownRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/TownRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/security/jwt/AuthEntryPointJwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/jwt/AuthEntryPointJwt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/security/jwt/AuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/security/jwt/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/jwt/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/security/services/RefreshTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/RefreshTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/security/services/UserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/UserDetailsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/security/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-refresh-token-jwt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +64,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-oratorio360-be" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -69,6 +113,7 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Oratorio360BeApplication.executor": "Run",
     "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
@@ -84,9 +129,9 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="SpringSecurityRefreshTokenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="Oratorio360BeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-security-refresh-token" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bezkoder.spring.security.jwt.SpringSecurityRefreshTokenApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.oratorio360.spring.jwt.Oratorio360BeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739098846671</updated>
-      <workItem from="1739098847763" duration="5923000" />
+      <workItem from="1739098847763" duration="18174000" />
     </task>
     <task id="LOCAL-00001" summary="[NEW] AbstractEntity with Id and TS">
       <option name="closed" value="true" />
@@ -174,7 +219,79 @@
       <option name="project" value="LOCAL" />
       <updated>1739122163878</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[UPDATE] complete user model">
+      <option name="closed" value="true" />
+      <created>1739122719815</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739122719815</updated>
+    </task>
+    <task id="LOCAL-00011" summary="[FIX] fixed cf storage">
+      <option name="closed" value="true" />
+      <created>1739199542318</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739199542318</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[FEATURE] GlobalExceptionHandler for runtime ex">
+      <option name="closed" value="true" />
+      <created>1739199565779</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739199565779</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[UPDATE] Foreign keys">
+      <option name="closed" value="true" />
+      <created>1739199583724</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739199583724</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[UPDATE] OratoryRepository">
+      <option name="closed" value="true" />
+      <created>1739199593308</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739199593308</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[FIX] parent foreign keys">
+      <option name="closed" value="true" />
+      <created>1739199612997</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739199612997</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[FEATURE] TownRepository">
+      <option name="closed" value="true" />
+      <created>1739199623430</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739199623430</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[FEATURE] UUID for users entities">
+      <option name="closed" value="true" />
+      <created>1739199640758</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1739199640758</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[FEATURE] findByUuid method">
+      <option name="closed" value="true" />
+      <created>1739199655911</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1739199655911</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +317,16 @@
     <MESSAGE value="[NEW] geolocation models" />
     <MESSAGE value="[FIX] authentication methods" />
     <MESSAGE value="[FIX] jdbc properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] jdbc properties" />
+    <MESSAGE value="[UPDATE] complete user model" />
+    <MESSAGE value="[FIX] fixed cf storage" />
+    <MESSAGE value="[FEATURE] GlobalExceptionHandler for runtime ex" />
+    <MESSAGE value="[UPDATE] Foreign keys" />
+    <MESSAGE value="[UPDATE] OratoryRepository" />
+    <MESSAGE value="[FIX] parent foreign keys" />
+    <MESSAGE value="[FEATURE] TownRepository" />
+    <MESSAGE value="[FEATURE] UUID for users entities" />
+    <MESSAGE value="[FEATURE] findByUuid method" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] findByUuid method" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
