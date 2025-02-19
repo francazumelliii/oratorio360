@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added swagger route path">
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] added organizer and organizerPhoneNumber field">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/EventRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/EventRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/EventResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/EventResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,15 +124,7 @@
       <workItem from="1739808882916" duration="699000" />
       <workItem from="1739878250601" duration="598000" />
       <workItem from="1739976992822" duration="38000" />
-      <workItem from="1739979702682" duration="1218000" />
-    </task>
-    <task id="LOCAL-00032" summary="[FIX] removed activity_id relationship">
-      <option name="closed" value="true" />
-      <created>1739564430592</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1739564430592</updated>
+      <workItem from="1739979702682" duration="2341000" />
     </task>
     <task id="LOCAL-00033" summary="[FEATURE] added BadAttributeValueExpException handler">
       <option name="closed" value="true" />
@@ -519,7 +510,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739980592926</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="[FIX] added organizer and organizerPhoneNumber field">
+      <option name="closed" value="true" />
+      <created>1739981123883</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1739981123883</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +539,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] added UnauthorizedException handling" />
     <MESSAGE value="[FEATURE] added PdfService for file uploads" />
     <MESSAGE value="[FIX] changed EnumType to STRING" />
     <MESSAGE value="[FIX] added activityId field" />
@@ -565,7 +563,8 @@
     <MESSAGE value="[FEATURE] added swagger dependency" />
     <MESSAGE value="[FEATURE] added custom exception messages" />
     <MESSAGE value="[FEATURE] added swagger route path" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added swagger route path" />
+    <MESSAGE value="[FIX] added organizer and organizerPhoneNumber field" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] added organizer and organizerPhoneNumber field" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
