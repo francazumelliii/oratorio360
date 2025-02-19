@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added custom BadAttributeValueExpException handling">
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/EmergencyContactRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/LoginRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/EmergencyContactResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/EmergencyContactRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_02_25,_15_02_[Changes]/shelved.patch" beforeDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added swagger route path">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/AdminJoinEventRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/AdminJoinEventRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/LoginRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SignupRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/UserInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/UserInfoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/EventRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/EventRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/EventResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/EventResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +77,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Oratorio360BeApplication.executor": "Run",
     "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
-    "git-widget-placeholder": "feature/api",
+    "git-widget-placeholder": "fix/event",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be",
@@ -136,62 +125,7 @@
       <workItem from="1739808882916" duration="699000" />
       <workItem from="1739878250601" duration="598000" />
       <workItem from="1739976992822" duration="38000" />
-    </task>
-    <task id="LOCAL-00025" summary="[FEATURE] LocationController for location entities">
-      <option name="closed" value="true" />
-      <created>1739371221555</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1739371221555</updated>
-    </task>
-    <task id="LOCAL-00026" summary="[FEATURE][WIP] DTO for join event method">
-      <option name="closed" value="true" />
-      <created>1739371243687</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1739371243687</updated>
-    </task>
-    <task id="LOCAL-00027" summary="[FIX] removed target-activity relationship">
-      <option name="closed" value="true" />
-      <created>1739539724231</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1739539724231</updated>
-    </task>
-    <task id="LOCAL-00028" summary="[FIX] added Oratory relationship">
-      <option name="closed" value="true" />
-      <created>1739562863754</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1739562863754</updated>
-    </task>
-    <task id="LOCAL-00029" summary="[FIX] added Target createdBy relationship">
-      <option name="closed" value="true" />
-      <created>1739563031374</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1739563031374</updated>
-    </task>
-    <task id="LOCAL-00030" summary="[NEW] added Response and Request DTOs">
-      <option name="closed" value="true" />
-      <created>1739563339357</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1739563339357</updated>
-    </task>
-    <task id="LOCAL-00031" summary="[NEW] added TargetRepository">
-      <option name="closed" value="true" />
-      <created>1739563346140</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1739563346140</updated>
+      <workItem from="1739979702682" duration="1218000" />
     </task>
     <task id="LOCAL-00032" summary="[FIX] removed activity_id relationship">
       <option name="closed" value="true" />
@@ -529,7 +463,63 @@
       <option name="project" value="LOCAL" />
       <updated>1739808857876</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="[FIX] AdminJoinEventRequestDTO class name">
+      <option name="closed" value="true" />
+      <created>1739980466537</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1739980466537</updated>
+    </task>
+    <task id="LOCAL-00075" summary="[FEATURE] emergencyContacts creation">
+      <option name="closed" value="true" />
+      <created>1739980508743</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1739980508743</updated>
+    </task>
+    <task id="LOCAL-00076" summary="[FEATURE] added uuid to DTO">
+      <option name="closed" value="true" />
+      <created>1739980524369</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1739980524369</updated>
+    </task>
+    <task id="LOCAL-00077" summary="[FEATURE] added custom messages for MethodArgumentNotValidExpException">
+      <option name="closed" value="true" />
+      <created>1739980555332</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1739980555332</updated>
+    </task>
+    <task id="LOCAL-00078" summary="[FEATURE] added swagger dependency">
+      <option name="closed" value="true" />
+      <created>1739980565393</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1739980565393</updated>
+    </task>
+    <task id="LOCAL-00079" summary="[FEATURE] added custom exception messages">
+      <option name="closed" value="true" />
+      <created>1739980575024</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1739980575024</updated>
+    </task>
+    <task id="LOCAL-00080" summary="[FEATURE] added swagger route path">
+      <option name="closed" value="true" />
+      <created>1739980592926</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1739980592926</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,13 +540,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FIX] added staff role enums" />
-    <MESSAGE value="[FIX] full exception message added" />
-    <MESSAGE value="[FIX] added createdBy relationship" />
-    <MESSAGE value="[NEW] NoteType repository" />
-    <MESSAGE value="[FEATURE] added createdBy OneToMany relationship" />
-    <MESSAGE value="[NEW] userController" />
-    <MESSAGE value="[FEATURE] findAllNotes method" />
     <MESSAGE value="[FEATURE] added UnauthorizedException handling" />
     <MESSAGE value="[FEATURE] added PdfService for file uploads" />
     <MESSAGE value="[FIX] changed EnumType to STRING" />
@@ -575,7 +558,14 @@
     <MESSAGE value="[FEATURE] added POST EmergencyContact for users" />
     <MESSAGE value="[FIX] added startDate, endDate, startTime, endTime fields" />
     <MESSAGE value="[FEATURE] added custom BadAttributeValueExpException handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added custom BadAttributeValueExpException handling" />
+    <MESSAGE value="[FIX] AdminJoinEventRequestDTO class name" />
+    <MESSAGE value="[FEATURE] emergencyContacts creation" />
+    <MESSAGE value="[FEATURE] added uuid to DTO" />
+    <MESSAGE value="[FEATURE] added custom messages for MethodArgumentNotValidExpException" />
+    <MESSAGE value="[FEATURE] added swagger dependency" />
+    <MESSAGE value="[FEATURE] added custom exception messages" />
+    <MESSAGE value="[FEATURE] added swagger route path" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added swagger route path" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
