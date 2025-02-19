@@ -4,34 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added fk columns">
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/exception/BadRequestException.java" afterDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added custom BadAttributeValueExpException handling">
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/EmergencyContactRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/LoginRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/EmergencyContactResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/EmergencyContactRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_02_25,_15_02_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/enums/ERole.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/enums/ERole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/ActivityInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/ActivityInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/EmergencyContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/EmergencyContact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/EventCustomers.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/EventCustomers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/EventUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/EventUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Oratory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Oratory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Region.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Space.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/StaffSubscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/StaffSubscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/StaffSubscriptionTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/StaffSubscriptionTeam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Subscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/UserNotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/UserNotes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/SpaceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/SpaceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/AdminJoinEventRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/AdminJoinEventRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SignupRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/UserInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/UserInfoResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -85,32 +75,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Oratorio360BeApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SpringSecurityRefreshTokenApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/api&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/francazumelli/Code/oratorio360_be&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Oratorio360BeApplication.executor": "Run",
+    "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
+    "git-widget-placeholder": "feature/api",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.project.oratorio360.spring.jwt.payload.request" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Oratorio360BeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-security-refresh-token" />
@@ -131,81 +126,410 @@
       <workItem from="1739098847763" duration="5923000" />
       <workItem from="1739304846914" duration="141000" />
       <workItem from="1739304990745" duration="1000000" />
-      <workItem from="1739348563324" duration="3986000" />
+      <workItem from="1739348563324" duration="11552000" />
+      <workItem from="1739539612171" duration="115000" />
+      <workItem from="1739562716468" duration="2772000" />
+      <workItem from="1739615205168" duration="17068000" />
+      <workItem from="1739783198550" duration="3660000" />
+      <workItem from="1739790077331" duration="6793000" />
+      <workItem from="1739802153930" duration="3217000" />
+      <workItem from="1739808882916" duration="699000" />
+      <workItem from="1739878250601" duration="598000" />
+      <workItem from="1739976992822" duration="38000" />
     </task>
-    <task id="LOCAL-00001" summary="[NEW] AbstractEntity with Id and TS">
+    <task id="LOCAL-00025" summary="[FEATURE] LocationController for location entities">
       <option name="closed" value="true" />
-      <created>1739122027511</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+      <created>1739371221555</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1739122027511</updated>
+      <updated>1739371221555</updated>
     </task>
-    <task id="LOCAL-00002" summary="[FIX] jdbc properties">
+    <task id="LOCAL-00026" summary="[FEATURE][WIP] DTO for join event method">
       <option name="closed" value="true" />
-      <created>1739122043757</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+      <created>1739371243687</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1739122043757</updated>
+      <updated>1739371243687</updated>
     </task>
-    <task id="LOCAL-00003" summary="[FIX] role authorities storage">
+    <task id="LOCAL-00027" summary="[FIX] removed target-activity relationship">
       <option name="closed" value="true" />
-      <created>1739122056334</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+      <created>1739539724231</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1739122056334</updated>
+      <updated>1739539724231</updated>
     </task>
-    <task id="LOCAL-00004" summary="[FIX] UserDetailsImpl injection">
+    <task id="LOCAL-00028" summary="[FIX] added Oratory relationship">
       <option name="closed" value="true" />
-      <created>1739122069072</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+      <created>1739562863754</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1739122069072</updated>
+      <updated>1739562863754</updated>
     </task>
-    <task id="LOCAL-00005" summary="[NEW] findByUser">
+    <task id="LOCAL-00029" summary="[FIX] added Target createdBy relationship">
       <option name="closed" value="true" />
-      <created>1739122081790</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+      <created>1739563031374</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1739122081790</updated>
+      <updated>1739563031374</updated>
     </task>
-    <task id="LOCAL-00006" summary="[FIX] find token before adding new">
+    <task id="LOCAL-00030" summary="[NEW] added Response and Request DTOs">
       <option name="closed" value="true" />
-      <created>1739122099601</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+      <created>1739563339357</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1739122099601</updated>
+      <updated>1739563339357</updated>
     </task>
-    <task id="LOCAL-00007" summary="[NEW] geolocation models">
+    <task id="LOCAL-00031" summary="[NEW] added TargetRepository">
       <option name="closed" value="true" />
-      <created>1739122124397</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+      <created>1739563346140</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1739122124397</updated>
+      <updated>1739563346140</updated>
     </task>
-    <task id="LOCAL-00008" summary="[FIX] authentication methods">
+    <task id="LOCAL-00032" summary="[FIX] removed activity_id relationship">
       <option name="closed" value="true" />
-      <created>1739122141755</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+      <created>1739564430592</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1739122141755</updated>
+      <updated>1739564430592</updated>
     </task>
-    <task id="LOCAL-00009" summary="[FIX] jdbc properties">
+    <task id="LOCAL-00033" summary="[FEATURE] added BadAttributeValueExpException handler">
       <option name="closed" value="true" />
-      <created>1739122163878</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+      <created>1739564453901</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1739122163878</updated>
+      <updated>1739564453901</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00034" summary="[FEATURE] added createTarget method">
+      <option name="closed" value="true" />
+      <created>1739564462765</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1739564462765</updated>
+    </task>
+    <task id="LOCAL-00035" summary="[FIX] fixed target-activityInstance-activity relationship 1-N">
+      <option name="closed" value="true" />
+      <created>1739637554250</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1739637554250</updated>
+    </task>
+    <task id="LOCAL-00036" summary="[FIX] fixed target-activityInstance-activity relationship 1-N">
+      <option name="closed" value="true" />
+      <created>1739637557836</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1739637557836</updated>
+    </task>
+    <task id="LOCAL-00037" summary="[NEW] ActivityRepository">
+      <option name="closed" value="true" />
+      <created>1739637573026</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1739637573026</updated>
+    </task>
+    <task id="LOCAL-00038" summary="[NEW] Response and Request DTOs for Activity">
+      <option name="closed" value="true" />
+      <created>1739637585379</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1739637585379</updated>
+    </task>
+    <task id="LOCAL-00039" summary="[NEW] ActivityInstanceRepository">
+      <option name="closed" value="true" />
+      <created>1739637593212</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1739637593212</updated>
+    </task>
+    <task id="LOCAL-00040" summary="[FEATURE] CRUD notes">
+      <option name="closed" value="true" />
+      <created>1739700339168</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1739700339168</updated>
+    </task>
+    <task id="LOCAL-00041" summary="[FEATURE] ActivityController">
+      <option name="closed" value="true" />
+      <created>1739700351356</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1739700351356</updated>
+    </task>
+    <task id="LOCAL-00042" summary="[FIX] added createdBy relationship">
+      <option name="closed" value="true" />
+      <created>1739700365780</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1739700365780</updated>
+    </task>
+    <task id="LOCAL-00043" summary="[FIX] added activity id and instance id">
+      <option name="closed" value="true" />
+      <created>1739700384005</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1739700384005</updated>
+    </task>
+    <task id="LOCAL-00044" summary="[FIX] added note type enums">
+      <option name="closed" value="true" />
+      <created>1739700396609</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1739700396609</updated>
+    </task>
+    <task id="LOCAL-00045" summary="[FIX] added staff role enums">
+      <option name="closed" value="true" />
+      <created>1739700410525</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1739700410525</updated>
+    </task>
+    <task id="LOCAL-00046" summary="[FIX] full exception message added">
+      <option name="closed" value="true" />
+      <created>1739700422653</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1739700422653</updated>
+    </task>
+    <task id="LOCAL-00047" summary="[FIX] added createdBy relationship">
+      <option name="closed" value="true" />
+      <created>1739700433933</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1739700433933</updated>
+    </task>
+    <task id="LOCAL-00048" summary="[NEW] NoteType repository">
+      <option name="closed" value="true" />
+      <created>1739700451285</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1739700451285</updated>
+    </task>
+    <task id="LOCAL-00049" summary="[NEW] NoteType repository">
+      <option name="closed" value="true" />
+      <created>1739700455263</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1739700455263</updated>
+    </task>
+    <task id="LOCAL-00050" summary="[FEATURE] added createdBy OneToMany relationship">
+      <option name="closed" value="true" />
+      <created>1739700476967</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1739700476968</updated>
+    </task>
+    <task id="LOCAL-00051" summary="[NEW] userController">
+      <option name="closed" value="true" />
+      <created>1739700495743</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1739700495743</updated>
+    </task>
+    <task id="LOCAL-00052" summary="[FEATURE] findAllNotes method">
+      <option name="closed" value="true" />
+      <created>1739780695024</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780695025</updated>
+    </task>
+    <task id="LOCAL-00053" summary="[FEATURE] findAllNotes method">
+      <option name="closed" value="true" />
+      <created>1739780699223</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780699224</updated>
+    </task>
+    <task id="LOCAL-00054" summary="[FEATURE] added UnauthorizedException handling">
+      <option name="closed" value="true" />
+      <created>1739780715873</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780715873</updated>
+    </task>
+    <task id="LOCAL-00055" summary="[FEATURE] added PdfService for file uploads">
+      <option name="closed" value="true" />
+      <created>1739780728835</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780728835</updated>
+    </task>
+    <task id="LOCAL-00056" summary="[FIX] changed EnumType to STRING">
+      <option name="closed" value="true" />
+      <created>1739780742317</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780742317</updated>
+    </task>
+    <task id="LOCAL-00057" summary="[FIX] added activityId field">
+      <option name="closed" value="true" />
+      <created>1739780760205</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780760205</updated>
+    </task>
+    <task id="LOCAL-00058" summary="[FEATURE] added UnauthorizedException custom exception">
+      <option name="closed" value="true" />
+      <created>1739780783745</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780783745</updated>
+    </task>
+    <task id="LOCAL-00059" summary="[FEATURE] added Create, Update, findAll, UpdatePersonalNotes for UserNotes">
+      <option name="closed" value="true" />
+      <created>1739780833132</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780833132</updated>
+    </task>
+    <task id="LOCAL-00060" summary="[FEATURE] added file import filed">
+      <option name="closed" value="true" />
+      <created>1739780847126</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780847126</updated>
+    </task>
+    <task id="LOCAL-00061" summary="[NEW] UserNotesRepository">
+      <option name="closed" value="true" />
+      <created>1739780867315</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780867315</updated>
+    </task>
+    <task id="LOCAL-00062" summary="[FEATURE] UserNotesRequestDTO for User request">
+      <option name="closed" value="true" />
+      <created>1739780887408</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780887408</updated>
+    </task>
+    <task id="LOCAL-00063" summary="[FEATURE] UserNotesResponseDTO for User responses">
+      <option name="closed" value="true" />
+      <created>1739780901642</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780901642</updated>
+    </task>
+    <task id="LOCAL-00064" summary="[FEATURE] added UserService">
+      <option name="closed" value="true" />
+      <created>1739780910702</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780910702</updated>
+    </task>
+    <task id="LOCAL-00065" summary="[FEATURE] added /user path for ROLE_USER">
+      <option name="closed" value="true" />
+      <created>1739780923086</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1739780923086</updated>
+    </task>
+    <task id="LOCAL-00066" summary="[FIX] added Subscription - Team 1-N relationship">
+      <option name="closed" value="true" />
+      <created>1739792156672</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1739792156672</updated>
+    </task>
+    <task id="LOCAL-00067" summary="[FEATURE] custom exception errors for MethodArgumentsException">
+      <option name="closed" value="true" />
+      <created>1739792581752</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1739792581752</updated>
+    </task>
+    <task id="LOCAL-00068" summary="[FEATURE] added custom messages for exceptions">
+      <option name="closed" value="true" />
+      <created>1739792768510</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1739792768510</updated>
+    </task>
+    <task id="LOCAL-00069" summary="[FEATURE] added custom messages for exceptions">
+      <option name="closed" value="true" />
+      <created>1739798290001</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1739798290002</updated>
+    </task>
+    <task id="LOCAL-00070" summary="[FEATURE] added custom messages for exceptions">
+      <option name="closed" value="true" />
+      <created>1739798303315</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1739798303315</updated>
+    </task>
+    <task id="LOCAL-00071" summary="[FEATURE] added POST EmergencyContact for users">
+      <option name="closed" value="true" />
+      <created>1739799931729</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1739799931729</updated>
+    </task>
+    <task id="LOCAL-00072" summary="[FIX] added startDate, endDate, startTime, endTime fields">
+      <option name="closed" value="true" />
+      <created>1739808784764</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1739808784764</updated>
+    </task>
+    <task id="LOCAL-00073" summary="[FEATURE] added custom BadAttributeValueExpException handling">
+      <option name="closed" value="true" />
+      <created>1739808857876</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1739808857876</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,15 +550,32 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[NEW] AbstractEntity with Id and TS" />
-    <MESSAGE value="[FIX] role authorities storage" />
-    <MESSAGE value="[FIX] UserDetailsImpl injection" />
-    <MESSAGE value="[NEW] findByUser" />
-    <MESSAGE value="[FIX] find token before adding new" />
-    <MESSAGE value="[NEW] geolocation models" />
-    <MESSAGE value="[FIX] authentication methods" />
-    <MESSAGE value="[FIX] jdbc properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] jdbc properties" />
+    <MESSAGE value="[FIX] added staff role enums" />
+    <MESSAGE value="[FIX] full exception message added" />
+    <MESSAGE value="[FIX] added createdBy relationship" />
+    <MESSAGE value="[NEW] NoteType repository" />
+    <MESSAGE value="[FEATURE] added createdBy OneToMany relationship" />
+    <MESSAGE value="[NEW] userController" />
+    <MESSAGE value="[FEATURE] findAllNotes method" />
+    <MESSAGE value="[FEATURE] added UnauthorizedException handling" />
+    <MESSAGE value="[FEATURE] added PdfService for file uploads" />
+    <MESSAGE value="[FIX] changed EnumType to STRING" />
+    <MESSAGE value="[FIX] added activityId field" />
+    <MESSAGE value="[FEATURE] added UnauthorizedException custom exception" />
+    <MESSAGE value="[FEATURE] added Create, Update, findAll, UpdatePersonalNotes for UserNotes" />
+    <MESSAGE value="[FEATURE] added file import filed" />
+    <MESSAGE value="[NEW] UserNotesRepository" />
+    <MESSAGE value="[FEATURE] UserNotesRequestDTO for User request" />
+    <MESSAGE value="[FEATURE] UserNotesResponseDTO for User responses" />
+    <MESSAGE value="[FEATURE] added UserService" />
+    <MESSAGE value="[FEATURE] added /user path for ROLE_USER" />
+    <MESSAGE value="[FIX] added Subscription - Team 1-N relationship" />
+    <MESSAGE value="[FEATURE] custom exception errors for MethodArgumentsException" />
+    <MESSAGE value="[FEATURE] added custom messages for exceptions" />
+    <MESSAGE value="[FEATURE] added POST EmergencyContact for users" />
+    <MESSAGE value="[FIX] added startDate, endDate, startTime, endTime fields" />
+    <MESSAGE value="[FEATURE] added custom BadAttributeValueExpException handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added custom BadAttributeValueExpException handling" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
