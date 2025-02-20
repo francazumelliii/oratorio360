@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] moved docker file">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Segment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/SegmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SignupRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SignupRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/UserResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/UserResponseDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -31,7 +36,7 @@
         <entry key="$PROJECT_DIR$/spring-oratorio360-be" value="fix/event" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-oratorio360-be" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -78,7 +83,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Oratorio360BeApplication.executor": "Run",
     "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/entity",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be",
@@ -100,7 +105,7 @@
       <recent name="com.project.oratorio360.spring.jwt.payload.request" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.spring-oratorio360-be/Dockerfile: Compose Deployment">
+  <component name="RunManager" selected="Spring Boot.Oratorio360BeApplication">
     <configuration name="Oratorio360BeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-security-refresh-token" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.oratorio360.spring.jwt.Oratorio360BeApplication" />
@@ -121,14 +126,11 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Docker.spring-oratorio360-be/Dockerfile: Compose Deployment" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -153,6 +155,9 @@
       <workItem from="1739976992822" duration="38000" />
       <workItem from="1739979702682" duration="3082000" />
       <workItem from="1740047123937" duration="3125000" />
+      <workItem from="1740073514398" duration="939000" />
+      <workItem from="1740074465701" duration="294000" />
+      <workItem from="1740074768901" duration="433000" />
     </task>
     <task id="LOCAL-00038" summary="[NEW] Response and Request DTOs for Activity">
       <option name="closed" value="true" />
