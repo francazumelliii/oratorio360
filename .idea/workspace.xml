@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added update, delete for User's emergency contacts">
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added organizer, organizerPhoneNumber fields">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +25,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
-        <entry key="$PROJECT_DIR$/spring-oratorio360-be" value="main" />
+        <entry key="$PROJECT_DIR$/spring-oratorio360-be" value="fix/event" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-oratorio360-be" />
@@ -77,7 +73,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Oratorio360BeApplication.executor": "Run",
     "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
-    "git-widget-placeholder": "fix/event",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be",
@@ -126,14 +122,6 @@
       <workItem from="1739878250601" duration="598000" />
       <workItem from="1739976992822" duration="38000" />
       <workItem from="1739979702682" duration="3082000" />
-    </task>
-    <task id="LOCAL-00034" summary="[FEATURE] added createTarget method">
-      <option name="closed" value="true" />
-      <created>1739564462765</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1739564462765</updated>
     </task>
     <task id="LOCAL-00035" summary="[FIX] fixed target-activityInstance-activity relationship 1-N">
       <option name="closed" value="true" />
@@ -519,7 +507,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739982289206</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="[FEATURE] added organizer, organizerPhoneNumber fields">
+      <option name="closed" value="true" />
+      <created>1740046329228</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1740046329229</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +526,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/api" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -540,7 +548,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FIX] changed EnumType to STRING" />
     <MESSAGE value="[FIX] added activityId field" />
     <MESSAGE value="[FEATURE] added UnauthorizedException custom exception" />
     <MESSAGE value="[FEATURE] added Create, Update, findAll, UpdatePersonalNotes for UserNotes" />
@@ -565,7 +572,8 @@
     <MESSAGE value="[FEATURE] added swagger route path" />
     <MESSAGE value="[FIX] added organizer and organizerPhoneNumber field" />
     <MESSAGE value="[FEATURE] added update, delete for User's emergency contacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added update, delete for User's emergency contacts" />
+    <MESSAGE value="[FEATURE] added organizer, organizerPhoneNumber fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added organizer, organizerPhoneNumber fields" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
