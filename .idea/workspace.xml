@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] moved docker file">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" afterDir="false" />
@@ -99,7 +100,7 @@
       <recent name="com.project.oratorio360.spring.jwt.payload.request" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile build">
+  <component name="RunManager" selected="Docker.spring-oratorio360-be/Dockerfile: Compose Deployment">
     <configuration name="Oratorio360BeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-security-refresh-token" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.oratorio360.spring.jwt.Oratorio360BeApplication" />
@@ -107,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dockerfile build" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+    <configuration name="Dockerfile: Compose Deployment" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
           <option name="imageTag" value="maven3.8.7-eclipse-temurin-17_build" />
@@ -125,7 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile build" />
+        <item itemvalue="Docker.spring-oratorio360-be/Dockerfile: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
