@@ -82,7 +82,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -532,7 +532,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature/api" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
