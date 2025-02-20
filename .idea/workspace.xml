@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added update, delete for user's emergency contacts">
-      <change afterPath="$PROJECT_DIR$/.idea/JetClient/state.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/PageDTO.java" afterDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added paging for EventList">
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/EventRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,15 +127,7 @@
       <workItem from="1739878250601" duration="598000" />
       <workItem from="1739976992822" duration="38000" />
       <workItem from="1739979702682" duration="3082000" />
-      <workItem from="1740047123937" duration="2610000" />
-    </task>
-    <task id="LOCAL-00036" summary="[FIX] fixed target-activityInstance-activity relationship 1-N">
-      <option name="closed" value="true" />
-      <created>1739637557836</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1739637557836</updated>
+      <workItem from="1740047123937" duration="3125000" />
     </task>
     <task id="LOCAL-00037" summary="[NEW] ActivityRepository">
       <option name="closed" value="true" />
@@ -522,7 +513,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740047989392</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="[FEATURE] added paging for EventList">
+      <option name="closed" value="true" />
+      <created>1740050029145</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1740050029145</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +569,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] added UnauthorizedException custom exception" />
     <MESSAGE value="[FEATURE] added Create, Update, findAll, UpdatePersonalNotes for UserNotes" />
     <MESSAGE value="[FEATURE] added file import filed" />
     <MESSAGE value="[NEW] UserNotesRepository" />
@@ -595,7 +593,8 @@
     <MESSAGE value="[FEATURE] added update, delete for User's emergency contacts" />
     <MESSAGE value="[FEATURE] added organizer, organizerPhoneNumber fields" />
     <MESSAGE value="[FEATURE] added update, delete for user's emergency contacts" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added update, delete for user's emergency contacts" />
+    <MESSAGE value="[FEATURE] added paging for EventList" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added paging for EventList" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
