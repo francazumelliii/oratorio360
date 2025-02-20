@@ -10,7 +10,7 @@ COPY spring-oratorio360-be/pom.xml ./
 # Scarica le dipendenze
 RUN mvn dependency:go-offline
 
-# Copia la cartella src dalla posizione giusta
+# Copia la cartella src dalla posizione corretta
 COPY spring-oratorio360-be/src ./src
 
 # Compila il progetto e genera il JAR
