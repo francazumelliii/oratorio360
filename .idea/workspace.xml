@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added organizer, organizerPhoneNumber fields">
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added update, delete for user's emergency contacts">
+      <change afterPath="$PROJECT_DIR$/.idea/JetClient/state.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/PageDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/EventRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +36,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-oratorio360-be" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;francazumelliii&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -128,15 +128,7 @@
       <workItem from="1739878250601" duration="598000" />
       <workItem from="1739976992822" duration="38000" />
       <workItem from="1739979702682" duration="3082000" />
-      <workItem from="1740047123937" duration="839000" />
-    </task>
-    <task id="LOCAL-00035" summary="[FIX] fixed target-activityInstance-activity relationship 1-N">
-      <option name="closed" value="true" />
-      <created>1739637554250</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1739637554250</updated>
+      <workItem from="1740047123937" duration="2610000" />
     </task>
     <task id="LOCAL-00036" summary="[FIX] fixed target-activityInstance-activity relationship 1-N">
       <option name="closed" value="true" />
@@ -522,13 +514,36 @@
       <option name="project" value="LOCAL" />
       <updated>1740046329229</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="[FEATURE] added update, delete for user's emergency contacts">
+      <option name="closed" value="true" />
+      <created>1740047989392</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1740047989392</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/feature/admin/api" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -539,7 +554,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/feature/admin/api" />
                       </list>
                     </value>
                   </entry>
@@ -555,7 +570,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FIX] added activityId field" />
     <MESSAGE value="[FEATURE] added UnauthorizedException custom exception" />
     <MESSAGE value="[FEATURE] added Create, Update, findAll, UpdatePersonalNotes for UserNotes" />
     <MESSAGE value="[FEATURE] added file import filed" />
@@ -580,7 +594,8 @@
     <MESSAGE value="[FIX] added organizer and organizerPhoneNumber field" />
     <MESSAGE value="[FEATURE] added update, delete for User's emergency contacts" />
     <MESSAGE value="[FEATURE] added organizer, organizerPhoneNumber fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added organizer, organizerPhoneNumber fields" />
+    <MESSAGE value="[FEATURE] added update, delete for user's emergency contacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added update, delete for user's emergency contacts" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
