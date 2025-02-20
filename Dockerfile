@@ -4,13 +4,13 @@ FROM maven:3.8.7-eclipse-temurin-17 AS build
 # Imposta la directory di lavoro
 WORKDIR /app
 
-# Copia i file di configurazione di Maven
+# Copia il file pom.xml
 COPY pom.xml ./
 
-# Scarica le dipendenze per velocizzare la build
+# Scarica le dipendenze
 RUN mvn dependency:go-offline
 
-# Copia il codice sorgente
+# Copia la cartella src
 COPY src ./src
 
 # Compila il progetto
@@ -21,7 +21,7 @@ FROM eclipse-temurin:17-jdk
 
 WORKDIR /app
 
-# Copia il JAR dalla fase di build
+# Copia il JAR generato dalla fase di build
 COPY --from=build /app/target/*.jar app.jar
 
 # Comando di avvio
