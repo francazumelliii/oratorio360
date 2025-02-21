@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] added release_date, release_time in activity, event entities">
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/NoteController.java" afterDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] added CRUD for User personal UserNotes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,15 +152,7 @@
       <workItem from="1740073514398" duration="939000" />
       <workItem from="1740074465701" duration="294000" />
       <workItem from="1740074768901" duration="2151000" />
-      <workItem from="1740131837950" duration="2290000" />
-    </task>
-    <task id="LOCAL-00042" summary="[FIX] added createdBy relationship">
-      <option name="closed" value="true" />
-      <created>1739700365780</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1739700365780</updated>
+      <workItem from="1740131837950" duration="2573000" />
     </task>
     <task id="LOCAL-00043" summary="[FIX] added activity id and instance id">
       <option name="closed" value="true" />
@@ -548,7 +538,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740132951565</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="[FIX] added CRUD for User personal UserNotes">
+      <option name="closed" value="true" />
+      <created>1740134154845</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1740134154845</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +599,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] added UserService" />
     <MESSAGE value="[FEATURE] added /user path for ROLE_USER" />
     <MESSAGE value="[FIX] added Subscription - Team 1-N relationship" />
     <MESSAGE value="[FEATURE] custom exception errors for MethodArgumentsException" />
@@ -626,7 +623,8 @@
     <MESSAGE value="[FEATURE] added draft, internalUse fields" />
     <MESSAGE value="[FIX] added oratory joinColumn to Segment entity" />
     <MESSAGE value="[FIX] added release_date, release_time in activity, event entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] added release_date, release_time in activity, event entities" />
+    <MESSAGE value="[FIX] added CRUD for User personal UserNotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] added CRUD for User personal UserNotes" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
