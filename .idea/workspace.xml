@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] added 30+ targets per activity check">
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/EventFiltersRequestParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/specifications/EventSpecification.java" afterDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] fixed spring jpa properties">
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/County.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/Oratory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/models/Town.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/payload/request/SignupRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/ActivityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/EventResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/EventResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/PageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/PageDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/ActivityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/ActivityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/EventRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/bezkoder/spring/security/jwt/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/RefreshTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/RefreshTokenService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="44c8db445a76cf468c199966adc94d802e5dfc65" />
         <entry key="$PROJECT_DIR$/spring-oratorio360-be" value="main" />
       </map>
     </option>
@@ -74,33 +71,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Docker.Dockerfile build.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Oratorio360BeApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SpringSecurityRefreshTokenApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/entity&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/francazumelli/Code/oratorio360_be&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.Dockerfile build.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Oratorio360BeApplication.executor": "Run",
+    "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
+    "git-widget-placeholder": "Rebasing backup-branch",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -136,6 +133,15 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -164,63 +170,7 @@
       <workItem from="1740074465701" duration="294000" />
       <workItem from="1740074768901" duration="2151000" />
       <workItem from="1740131837950" duration="19704000" />
-      <workItem from="1740246363303" duration="214000" />
-    </task>
-    <task id="LOCAL-00044" summary="[FIX] added note type enums">
-      <option name="closed" value="true" />
-      <created>1739700396609</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1739700396609</updated>
-    </task>
-    <task id="LOCAL-00045" summary="[FIX] added staff role enums">
-      <option name="closed" value="true" />
-      <created>1739700410525</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1739700410525</updated>
-    </task>
-    <task id="LOCAL-00046" summary="[FIX] full exception message added">
-      <option name="closed" value="true" />
-      <created>1739700422653</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1739700422653</updated>
-    </task>
-    <task id="LOCAL-00047" summary="[FIX] added createdBy relationship">
-      <option name="closed" value="true" />
-      <created>1739700433933</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1739700433933</updated>
-    </task>
-    <task id="LOCAL-00048" summary="[NEW] NoteType repository">
-      <option name="closed" value="true" />
-      <created>1739700451285</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1739700451285</updated>
-    </task>
-    <task id="LOCAL-00049" summary="[NEW] NoteType repository">
-      <option name="closed" value="true" />
-      <created>1739700455263</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1739700455263</updated>
-    </task>
-    <task id="LOCAL-00050" summary="[FEATURE] added createdBy OneToMany relationship">
-      <option name="closed" value="true" />
-      <created>1739700476967</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1739700476968</updated>
+      <workItem from="1740246363303" duration="2031000" />
     </task>
     <task id="LOCAL-00051" summary="[NEW] userController">
       <option name="closed" value="true" />
@@ -558,7 +508,63 @@
       <option name="project" value="LOCAL" />
       <updated>1740134451303</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="[FEATURE] added specification for admin Event request">
+      <option name="closed" value="true" />
+      <created>1740246664187</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246664187</updated>
+    </task>
+    <task id="LOCAL-00094" summary="[FIX] fixed findAll request with all published activities">
+      <option name="closed" value="true" />
+      <created>1740246709417</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246709418</updated>
+    </task>
+    <task id="LOCAL-00095" summary="[FIX] fixed findAll request with all published events">
+      <option name="closed" value="true" />
+      <created>1740246726925</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246726925</updated>
+    </task>
+    <task id="LOCAL-00096" summary="[FEATURE] added findAllEvents with filters">
+      <option name="closed" value="true" />
+      <created>1740246746509</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246746510</updated>
+    </task>
+    <task id="LOCAL-00097" summary="[FEATURE] added releaseDate, releaseTime to DTO">
+      <option name="closed" value="true" />
+      <created>1740246757823</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246757823</updated>
+    </task>
+    <task id="LOCAL-00098" summary="[FEATURE] added customized filters for events, activities and users">
+      <option name="closed" value="true" />
+      <created>1740246772981</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246772981</updated>
+    </task>
+    <task id="LOCAL-00099" summary="[FIX] fixed spring jpa properties">
+      <option name="closed" value="true" />
+      <created>1740246788797</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1740246788797</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,6 +576,16 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="feature/entity" />
@@ -595,7 +611,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature/entity" />
+                        <option value="backup-branch" />
                       </list>
                     </value>
                   </entry>
@@ -611,13 +627,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FIX] added Subscription - Team 1-N relationship" />
-    <MESSAGE value="[FEATURE] custom exception errors for MethodArgumentsException" />
-    <MESSAGE value="[FEATURE] added custom messages for exceptions" />
-    <MESSAGE value="[FEATURE] added POST EmergencyContact for users" />
-    <MESSAGE value="[FIX] added startDate, endDate, startTime, endTime fields" />
-    <MESSAGE value="[FEATURE] added custom BadAttributeValueExpException handling" />
-    <MESSAGE value="[FIX] AdminJoinEventRequestDTO class name" />
     <MESSAGE value="[FEATURE] emergencyContacts creation" />
     <MESSAGE value="[FEATURE] added uuid to DTO" />
     <MESSAGE value="[FEATURE] added custom messages for MethodArgumentNotValidExpException" />
@@ -636,7 +645,14 @@
     <MESSAGE value="[FIX] added release_date, release_time in activity, event entities" />
     <MESSAGE value="[FIX] added CRUD for User personal UserNotes" />
     <MESSAGE value="[FIX] added 30+ targets per activity check" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] added 30+ targets per activity check" />
+    <MESSAGE value="[FEATURE] added specification for admin Event request" />
+    <MESSAGE value="[FIX] fixed findAll request with all published activities" />
+    <MESSAGE value="[FIX] fixed findAll request with all published events" />
+    <MESSAGE value="[FEATURE] added findAllEvents with filters" />
+    <MESSAGE value="[FEATURE] added releaseDate, releaseTime to DTO" />
+    <MESSAGE value="[FEATURE] added customized filters for events, activities and users" />
+    <MESSAGE value="[FIX] fixed spring jpa properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] fixed spring jpa properties" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
