@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] [WIP] todo: activityCollection">
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] findAllSegmentsByOratory (pageable)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/SegmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/SegmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/JwtHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/JwtHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,15 +201,7 @@
       <workItem from="1740315752472" duration="321000" />
       <workItem from="1740316088186" duration="387000" />
       <workItem from="1740316485001" duration="276000" />
-      <workItem from="1740316794642" duration="9072000" />
-    </task>
-    <task id="LOCAL-00071" summary="[FEATURE] added POST EmergencyContact for users">
-      <option name="closed" value="true" />
-      <created>1739799931729</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1739799931729</updated>
+      <workItem from="1740316794642" duration="10733000" />
     </task>
     <task id="LOCAL-00072" summary="[FIX] added startDate, endDate, startTime, endTime fields">
       <option name="closed" value="true" />
@@ -594,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740326630511</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="[FIX] findAllSegmentsByOratory (pageable)">
+      <option name="closed" value="true" />
+      <created>1740327004988</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1740327004988</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,7 +646,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] added paging for EventList" />
     <MESSAGE value="[FIX] moved docker file" />
     <MESSAGE value="[FEATURE] added segment Entity to user" />
     <MESSAGE value="[FEATURE] added draft, internalUse fields" />
@@ -670,7 +670,8 @@
     <MESSAGE value="[FIX] getters and setters" />
     <MESSAGE value="[FEATURE] added segment DTOs for requests and responses" />
     <MESSAGE value="[FEATURE] [WIP] todo: activityCollection" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] [WIP] todo: activityCollection" />
+    <MESSAGE value="[FIX] findAllSegmentsByOratory (pageable)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] findAllSegmentsByOratory (pageable)" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
