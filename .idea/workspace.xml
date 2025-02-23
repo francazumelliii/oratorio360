@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] fixed docker config">
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] fixed docker config" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +26,7 @@
         <entry key="$PROJECT_DIR$/spring-oratorio360-be" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-oratorio360-be" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -76,7 +74,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Oratorio360BeApplication.executor": "Run",
     "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
-    "git-widget-placeholder": "Rebasing backup-branch",
+    "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be",
@@ -162,14 +160,6 @@
       <workItem from="1740074768901" duration="2151000" />
       <workItem from="1740131837950" duration="19704000" />
       <workItem from="1740246363303" duration="2031000" />
-    </task>
-    <task id="LOCAL-00058" summary="[FEATURE] added UnauthorizedException custom exception">
-      <option name="closed" value="true" />
-      <created>1739780783745</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1739780783745</updated>
     </task>
     <task id="LOCAL-00059" summary="[FEATURE] added Create, Update, findAll, UpdatePersonalNotes for UserNotes">
       <option name="closed" value="true" />
@@ -555,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740304529398</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="[FIX] fixed docker config">
+      <option name="closed" value="true" />
+      <created>1740304655198</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1740304655198</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,13 +1,11 @@
 # Usa un'immagine base di OpenJDK
 FROM openjdk:17-jdk-slim as build
 
-
 # Imposta la cartella di lavoro nel container
 WORKDIR /app
 
 # Copia il pom.xml nel container
 COPY spring-oratorio360-be/pom.xml /app/pom.xml
-
 
 # Copia il codice sorgente nel container
 COPY spring-oratorio360-be/src /app/src
