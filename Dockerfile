@@ -1,28 +1,24 @@
-# Usa un'immagine di Maven per la build
-FROM maven:3.8.7-eclipse-temurin-17 AS build
+# Step 1: Usa un'immagine base di Maven per compilare il progetto
+FROM maven:3.8.6-openjdk-11 AS build
 
-# Imposta la directory di lavoro
+# Imposta la cartella di lavoro
 WORKDIR /app
 
-# Copia il pom.xml
-COPY spring-oratorio360-be/pom.xml ./
+# Copia il file pom.xml e scarica le dipendenze
+COPY spring-oratorio360-be/pom.xml /app/pom.xml
+RUN mvn clean install -DskipTests
 
-# Scarica le dipendenze
-RUN mvn dependency:go-offline
+# Step 2: Usa un'immagine base di OpenJDK per eseguire il jar generato
+FROM openjdk:11-jre-slim
 
-# Copia la cartella src dalla posizione corretta
-COPY spring-oratorio360-be/src ./src
-
-# Compila il progetto e genera il JAR
-RUN mvn clean package -DskipTests
-
-# Usa un'immagine più leggera per eseguire l'app
-FROM eclipse-temurin:17-jdk
-
+# Imposta la cartella di lavoro
 WORKDIR /app
 
-# Copia il JAR generato dalla fase di build
-COPY --from=build /app/target/*.jar app.jar
+# Copia il jar dal contesto di build
+COPY --from=build /app/target/*.jar /app/app.jar
 
-# Comando di avvio
-CMD ["java", "-jar", "app.jar"]
+# Esponi la porta su cui Spring Boot si avvia
+EXPOSE 8080
+
+# Comando per avviare l'applicazione Spring Boot
+ENTRYPOINT ["java", "-jar", "app.jar"]
