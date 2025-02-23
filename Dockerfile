@@ -5,7 +5,7 @@ FROM maven:3.8.6-openjdk-11 AS build
 WORKDIR /app
 
 # Copia il file pom.xml e scarica le dipendenze
-COPY spring-oratorio360-be/pom.xml /app/pom.xml
+COPY pom.xml /app/pom.xml
 RUN mvn clean install -DskipTests
 
 # Step 2: Usa un'immagine base di OpenJDK per eseguire il jar generato
