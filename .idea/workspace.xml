@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] fixed docker config">
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/.nixpacks.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/.nixpacks.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,14 +165,6 @@
       <workItem from="1740074768901" duration="2151000" />
       <workItem from="1740131837950" duration="19704000" />
       <workItem from="1740246363303" duration="2031000" />
-    </task>
-    <task id="LOCAL-00061" summary="[NEW] UserNotesRepository">
-      <option name="closed" value="true" />
-      <created>1739780867315</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1739780867315</updated>
     </task>
     <task id="LOCAL-00062" summary="[FEATURE] UserNotesRequestDTO for User request">
       <option name="closed" value="true" />
@@ -556,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740305396752</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="[FIX] fixed docker config">
+      <option name="closed" value="true" />
+      <created>1740305817970</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1740305817970</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
