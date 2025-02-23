@@ -161,14 +161,6 @@
       <workItem from="1740131837950" duration="19704000" />
       <workItem from="1740246363303" duration="2031000" />
     </task>
-    <task id="LOCAL-00052" summary="[FEATURE] findAllNotes method">
-      <option name="closed" value="true" />
-      <created>1739780695024</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1739780695025</updated>
-    </task>
     <task id="LOCAL-00053" summary="[FEATURE] findAllNotes method">
       <option name="closed" value="true" />
       <created>1739780699223</created>
@@ -553,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740303742019</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="[FIX] fixed authController refactoring imports">
+      <option name="closed" value="true" />
+      <created>1740303833152</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1740303833152</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

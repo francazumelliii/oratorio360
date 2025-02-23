@@ -1,25 +1,32 @@
-# Step 1: Usa un'immagine base di Maven per compilare il progetto
-FROM maven:3.8.6-openjdk-11 AS build
+# Usa un'immagine di base con JDK 17
+FROM openjdk:17-jdk-slim AS build
 
-# Imposta la cartella di lavoro
+# Imposta la directory di lavoro
 WORKDIR /app
 
-# Copia il file pom.xml e scarica le dipendenze
+# Copia il pom.xml nella directory di lavoro
 COPY spring-oratorio360-be/pom.xml /app/pom.xml
 
-RUN mvn clean install -DskipTests
+# Esegui il comando Maven per scaricare le dipendenze senza compilarle
+RUN mvn dependency:go-offline -B
 
-# Step 2: Usa un'immagine base di OpenJDK per eseguire il jar generato
-FROM openjdk:11-jre-slim
+# Copia il codice sorgente nel container
+COPY spring-oratorio360-be/src /app/src
 
-# Imposta la cartella di lavoro
+# Esegui la build del progetto (senza test per velocizzare)
+RUN mvn clean package -DskipTests
+
+# Usa un'immagine di base per l'esecuzione del progetto
+FROM openjdk:17-jdk-slim
+
+# Imposta la directory di lavoro
 WORKDIR /app
 
-# Copia il jar dal contesto di build
+# Copia il file JAR costruito nella fase di build
 COPY --from=build /app/target/*.jar /app/app.jar
 
-# Esponi la porta su cui Spring Boot si avvia
+# Espone la porta su cui il tuo app Spring Boot sta ascoltando
 EXPOSE 8080
 
-# Comando per avviare l'applicazione Spring Boot
-ENTRYPOINT ["java", "-jar", "app.jar"]
+# Esegui il comando per avviare l'applicazione Spring Boot
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]
