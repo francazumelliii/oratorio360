@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/spring-security-refresh-token-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" />
       </list>
     </option>
   </component>
