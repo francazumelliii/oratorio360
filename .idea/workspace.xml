@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added Filters for activities (Admin)">
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SegmentRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/filters_param/PaginationFiltersParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/SegmentResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/ActivityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] [WIP] todo: activityCollection">
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Segment.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Segment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SignupRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SignupRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/specifications/ActivitySpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/specifications/ActivitySpecification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,47 +198,7 @@
       <workItem from="1740315752472" duration="321000" />
       <workItem from="1740316088186" duration="387000" />
       <workItem from="1740316485001" duration="276000" />
-      <workItem from="1740316794642" duration="8542000" />
-    </task>
-    <task id="LOCAL-00065" summary="[FEATURE] added /user path for ROLE_USER">
-      <option name="closed" value="true" />
-      <created>1739780923086</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1739780923086</updated>
-    </task>
-    <task id="LOCAL-00066" summary="[FIX] added Subscription - Team 1-N relationship">
-      <option name="closed" value="true" />
-      <created>1739792156672</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1739792156672</updated>
-    </task>
-    <task id="LOCAL-00067" summary="[FEATURE] custom exception errors for MethodArgumentsException">
-      <option name="closed" value="true" />
-      <created>1739792581752</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1739792581752</updated>
-    </task>
-    <task id="LOCAL-00068" summary="[FEATURE] added custom messages for exceptions">
-      <option name="closed" value="true" />
-      <created>1739792768510</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1739792768510</updated>
-    </task>
-    <task id="LOCAL-00069" summary="[FEATURE] added custom messages for exceptions">
-      <option name="closed" value="true" />
-      <created>1739798290001</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1739798290002</updated>
+      <workItem from="1740316794642" duration="8714000" />
     </task>
     <task id="LOCAL-00070" summary="[FEATURE] added custom messages for exceptions">
       <option name="closed" value="true" />
@@ -602,7 +552,47 @@
       <option name="project" value="LOCAL" />
       <updated>1740319832700</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="[FIX] added PaginationFiltersParam for Pagination Request params">
+      <option name="closed" value="true" />
+      <created>1740326481179</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1740326481179</updated>
+    </task>
+    <task id="LOCAL-00115" summary="[FEATURE] added segment CRUD + findAll + assign to user + remove from user">
+      <option name="closed" value="true" />
+      <created>1740326520283</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1740326520284</updated>
+    </task>
+    <task id="LOCAL-00116" summary="[FIX] getters and setters">
+      <option name="closed" value="true" />
+      <created>1740326536634</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1740326536634</updated>
+    </task>
+    <task id="LOCAL-00117" summary="[FEATURE] added segment DTOs for requests and responses">
+      <option name="closed" value="true" />
+      <created>1740326563667</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1740326563667</updated>
+    </task>
+    <task id="LOCAL-00118" summary="[FEATURE] [WIP] todo: activityCollection">
+      <option name="closed" value="true" />
+      <created>1740326608334</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1740326608334</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,11 +655,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] added swagger route path" />
-    <MESSAGE value="[FIX] added organizer and organizerPhoneNumber field" />
-    <MESSAGE value="[FEATURE] added update, delete for User's emergency contacts" />
-    <MESSAGE value="[FEATURE] added organizer, organizerPhoneNumber fields" />
-    <MESSAGE value="[FEATURE] added update, delete for user's emergency contacts" />
     <MESSAGE value="[FEATURE] added paging for EventList" />
     <MESSAGE value="[FIX] moved docker file" />
     <MESSAGE value="[FEATURE] added segment Entity to user" />
@@ -690,7 +675,12 @@
     <MESSAGE value="[FIX] create event releaseDate time check not after startDate time" />
     <MESSAGE value="[FEATURE] added releaseDate, releaseTime for activities" />
     <MESSAGE value="[FEATURE] added Filters for activities (Admin)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added Filters for activities (Admin)" />
+    <MESSAGE value="[FIX] added PaginationFiltersParam for Pagination Request params" />
+    <MESSAGE value="[FEATURE] added segment CRUD + findAll + assign to user + remove from user" />
+    <MESSAGE value="[FIX] getters and setters" />
+    <MESSAGE value="[FEATURE] added segment DTOs for requests and responses" />
+    <MESSAGE value="[FEATURE] [WIP] todo: activityCollection" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] [WIP] todo: activityCollection" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
