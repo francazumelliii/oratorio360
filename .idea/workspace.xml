@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] fixed authController refactoring imports">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] fixed docker config">
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,7 @@
         <entry key="$PROJECT_DIR$/spring-oratorio360-be" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-oratorio360-be" />
     <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -76,7 +76,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Oratorio360BeApplication.executor": "Run",
     "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Rebasing backup-branch",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be",
@@ -162,30 +162,6 @@
       <workItem from="1740074768901" duration="2151000" />
       <workItem from="1740131837950" duration="19704000" />
       <workItem from="1740246363303" duration="2031000" />
-    </task>
-    <task id="LOCAL-00055" summary="[FEATURE] added PdfService for file uploads">
-      <option name="closed" value="true" />
-      <created>1739780728835</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1739780728835</updated>
-    </task>
-    <task id="LOCAL-00056" summary="[FIX] changed EnumType to STRING">
-      <option name="closed" value="true" />
-      <created>1739780742317</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1739780742317</updated>
-    </task>
-    <task id="LOCAL-00057" summary="[FIX] added activityId field">
-      <option name="closed" value="true" />
-      <created>1739780760205</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1739780760205</updated>
     </task>
     <task id="LOCAL-00058" summary="[FEATURE] added UnauthorizedException custom exception">
       <option name="closed" value="true" />
@@ -555,7 +531,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740304365715</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="[FIX] fixed authController refactoring imports">
+      <option name="closed" value="true" />
+      <created>1740304410140</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1740304410140</updated>
+    </task>
+    <task id="LOCAL-00105" summary="[FIX] fixed authController refactoring imports">
+      <option name="closed" value="true" />
+      <created>1740304512945</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1740304512945</updated>
+    </task>
+    <task id="LOCAL-00106" summary="[FIX] fixed docker config">
+      <option name="closed" value="true" />
+      <created>1740304529398</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1740304529398</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +618,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] added uuid to DTO" />
     <MESSAGE value="[FEATURE] added custom messages for MethodArgumentNotValidExpException" />
     <MESSAGE value="[FEATURE] added swagger dependency" />
     <MESSAGE value="[FEATURE] added custom exception messages" />
@@ -643,7 +642,8 @@
     <MESSAGE value="[FEATURE] added customized filters for events, activities and users" />
     <MESSAGE value="[FIX] fixed spring jpa properties" />
     <MESSAGE value="[FIX] fixed authController refactoring imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] fixed authController refactoring imports" />
+    <MESSAGE value="[FIX] fixed docker config" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] fixed docker config" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
