@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] fixed spring jpa properties">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-    </list>
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] fixed authController refactoring imports" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,14 +160,6 @@
       <workItem from="1740074768901" duration="2151000" />
       <workItem from="1740131837950" duration="19704000" />
       <workItem from="1740246363303" duration="2031000" />
-    </task>
-    <task id="LOCAL-00051" summary="[NEW] userController">
-      <option name="closed" value="true" />
-      <created>1739700495743</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1739700495743</updated>
     </task>
     <task id="LOCAL-00052" summary="[FEATURE] findAllNotes method">
       <option name="closed" value="true" />
@@ -556,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740246788797</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="[FIX] fixed authController refactoring imports">
+      <option name="closed" value="true" />
+      <created>1740303742019</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1740303742019</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +616,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] emergencyContacts creation" />
     <MESSAGE value="[FEATURE] added uuid to DTO" />
     <MESSAGE value="[FEATURE] added custom messages for MethodArgumentNotValidExpException" />
     <MESSAGE value="[FEATURE] added swagger dependency" />
@@ -644,7 +640,8 @@
     <MESSAGE value="[FEATURE] added releaseDate, releaseTime to DTO" />
     <MESSAGE value="[FEATURE] added customized filters for events, activities and users" />
     <MESSAGE value="[FIX] fixed spring jpa properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] fixed spring jpa properties" />
+    <MESSAGE value="[FIX] fixed authController refactoring imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] fixed authController refactoring imports" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
