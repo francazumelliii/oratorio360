@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] findAllSegmentsByOratory (pageable)">
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] Exception, removed redundant code with getUserFromToken()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/JwtHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/JwtHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,15 +198,7 @@
       <workItem from="1740315752472" duration="321000" />
       <workItem from="1740316088186" duration="387000" />
       <workItem from="1740316485001" duration="276000" />
-      <workItem from="1740316794642" duration="10733000" />
-    </task>
-    <task id="LOCAL-00072" summary="[FIX] added startDate, endDate, startTime, endTime fields">
-      <option name="closed" value="true" />
-      <created>1739808784764</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1739808784764</updated>
+      <workItem from="1740316794642" duration="10800000" />
     </task>
     <task id="LOCAL-00073" summary="[FEATURE] added custom BadAttributeValueExpException handling">
       <option name="closed" value="true" />
@@ -595,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740327004988</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="[FIX] Exception, removed redundant code with getUserFromToken()">
+      <option name="closed" value="true" />
+      <created>1740329034669</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1740329034669</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,7 +643,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FIX] moved docker file" />
     <MESSAGE value="[FEATURE] added segment Entity to user" />
     <MESSAGE value="[FEATURE] added draft, internalUse fields" />
     <MESSAGE value="[FIX] added oratory joinColumn to Segment entity" />
@@ -671,7 +667,8 @@
     <MESSAGE value="[FEATURE] added segment DTOs for requests and responses" />
     <MESSAGE value="[FEATURE] [WIP] todo: activityCollection" />
     <MESSAGE value="[FIX] findAllSegmentsByOratory (pageable)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] findAllSegmentsByOratory (pageable)" />
+    <MESSAGE value="[FIX] Exception, removed redundant code with getUserFromToken()" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] Exception, removed redundant code with getUserFromToken()" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
