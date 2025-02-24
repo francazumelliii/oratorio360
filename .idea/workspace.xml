@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added dockerfile">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources/application-test.properties" afterDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added Swagger tags config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/aspects/LoggingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/ActivityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/EventController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/LocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/LocationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/CountyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/CountyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/RegionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/RegionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/TownRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/TownRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/NoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/SpaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/SpaceController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,47 +219,7 @@
       <workItem from="1740316485001" duration="276000" />
       <workItem from="1740316794642" duration="11048000" />
       <workItem from="1740388068737" duration="7949000" />
-      <workItem from="1740398053168" duration="6239000" />
-    </task>
-    <task id="LOCAL-00082" summary="[FEATURE] added update, delete for User's emergency contacts">
-      <option name="closed" value="true" />
-      <created>1739982289206</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1739982289206</updated>
-    </task>
-    <task id="LOCAL-00083" summary="[FEATURE] added organizer, organizerPhoneNumber fields">
-      <option name="closed" value="true" />
-      <created>1740046329228</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1740046329229</updated>
-    </task>
-    <task id="LOCAL-00084" summary="[FEATURE] added update, delete for user's emergency contacts">
-      <option name="closed" value="true" />
-      <created>1740047989392</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1740047989392</updated>
-    </task>
-    <task id="LOCAL-00085" summary="[FEATURE] added paging for EventList">
-      <option name="closed" value="true" />
-      <created>1740050029145</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1740050029145</updated>
-    </task>
-    <task id="LOCAL-00086" summary="[FIX] moved docker file">
-      <option name="closed" value="true" />
-      <created>1740050593422</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1740050593423</updated>
+      <workItem from="1740398053168" duration="7459000" />
     </task>
     <task id="LOCAL-00087" summary="[FEATURE] added segment Entity to user">
       <option name="closed" value="true" />
@@ -626,7 +573,47 @@
       <option name="project" value="LOCAL" />
       <updated>1740396006350</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="[FEATURE] added environment variable file">
+      <option name="closed" value="true" />
+      <created>1740407578674</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407578675</updated>
+    </task>
+    <task id="LOCAL-00132" summary="[FEATURE] divided test and dev profiles">
+      <option name="closed" value="true" />
+      <created>1740407589496</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407589496</updated>
+    </task>
+    <task id="LOCAL-00133" summary="[FEATURE] added findTownsByCounty, findCountiesByRegion, findRegionsByState methods">
+      <option name="closed" value="true" />
+      <created>1740407627784</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407627784</updated>
+    </task>
+    <task id="LOCAL-00134" summary="[FIX] paths">
+      <option name="closed" value="true" />
+      <created>1740407635659</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407635659</updated>
+    </task>
+    <task id="LOCAL-00135" summary="[FEATURE] added Swagger tags config">
+      <option name="closed" value="true" />
+      <created>1740407663312</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1740407663313</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,11 +684,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FIX] added CRUD for User personal UserNotes" />
-    <MESSAGE value="[FIX] added 30+ targets per activity check" />
-    <MESSAGE value="[FEATURE] added specification for admin Event request" />
-    <MESSAGE value="[FIX] fixed findAll request with all published activities" />
-    <MESSAGE value="[FIX] fixed findAll request with all published events" />
     <MESSAGE value="[FEATURE] added findAllEvents with filters" />
     <MESSAGE value="[FEATURE] added releaseDate, releaseTime to DTO" />
     <MESSAGE value="[FEATURE] added customized filters for events, activities and users" />
@@ -722,7 +704,12 @@
     <MESSAGE value="[FIX] Exception handling" />
     <MESSAGE value="[FEATURE] added loggingAspect for automated logs" />
     <MESSAGE value="[FEATURE] added dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added dockerfile" />
+    <MESSAGE value="[FEATURE] added environment variable file" />
+    <MESSAGE value="[FEATURE] divided test and dev profiles" />
+    <MESSAGE value="[FEATURE] added findTownsByCounty, findCountiesByRegion, findRegionsByState methods" />
+    <MESSAGE value="[FIX] paths" />
+    <MESSAGE value="[FEATURE] added Swagger tags config" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added Swagger tags config" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
