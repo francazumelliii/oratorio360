@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added loggingAspect for automated logs">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/TokenControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/TokenControllerAdvice.java" afterDir="false" />
-    </list>
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added dockerfile" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,15 +196,7 @@
       <workItem from="1740316088186" duration="387000" />
       <workItem from="1740316485001" duration="276000" />
       <workItem from="1740316794642" duration="11048000" />
-      <workItem from="1740388068737" duration="5362000" />
-    </task>
-    <task id="LOCAL-00076" summary="[FEATURE] added uuid to DTO">
-      <option name="closed" value="true" />
-      <created>1739980524369</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1739980524369</updated>
+      <workItem from="1740388068737" duration="5455000" />
     </task>
     <task id="LOCAL-00077" summary="[FEATURE] added custom messages for MethodArgumentNotValidExpException">
       <option name="closed" value="true" />
@@ -596,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740391346966</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="[FEATURE] added dockerfile">
+      <option name="closed" value="true" />
+      <created>1740395460894</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1740395460894</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,7 +658,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FIX] added release_date, release_time in activity, event entities" />
     <MESSAGE value="[FIX] added CRUD for User personal UserNotes" />
     <MESSAGE value="[FIX] added 30+ targets per activity check" />
     <MESSAGE value="[FEATURE] added specification for admin Event request" />
@@ -689,7 +682,8 @@
     <MESSAGE value="[FIX] syntax" />
     <MESSAGE value="[FIX] Exception handling" />
     <MESSAGE value="[FEATURE] added loggingAspect for automated logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added loggingAspect for automated logs" />
+    <MESSAGE value="[FEATURE] added dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added dockerfile" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
