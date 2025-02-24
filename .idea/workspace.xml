@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] syntax">
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/aspects/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/exception/ForbiddenException.java" afterDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added loggingAspect for automated logs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/ErrorMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/TokenControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/TokenControllerAdvice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,23 +201,7 @@
       <workItem from="1740316088186" duration="387000" />
       <workItem from="1740316485001" duration="276000" />
       <workItem from="1740316794642" duration="11048000" />
-      <workItem from="1740388068737" duration="2999000" />
-    </task>
-    <task id="LOCAL-00074" summary="[FIX] AdminJoinEventRequestDTO class name">
-      <option name="closed" value="true" />
-      <created>1739980466537</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1739980466537</updated>
-    </task>
-    <task id="LOCAL-00075" summary="[FEATURE] emergencyContacts creation">
-      <option name="closed" value="true" />
-      <created>1739980508743</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1739980508743</updated>
+      <workItem from="1740388068737" duration="4035000" />
     </task>
     <task id="LOCAL-00076" summary="[FEATURE] added uuid to DTO">
       <option name="closed" value="true" />
@@ -598,7 +579,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740329078663</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="[FIX] Exception handling">
+      <option name="closed" value="true" />
+      <created>1740391322436</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1740391322436</updated>
+    </task>
+    <task id="LOCAL-00124" summary="[FEATURE] added loggingAspect for automated logs">
+      <option name="closed" value="true" />
+      <created>1740391346966</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1740391346966</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,8 +646,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] added draft, internalUse fields" />
-    <MESSAGE value="[FIX] added oratory joinColumn to Segment entity" />
     <MESSAGE value="[FIX] added release_date, release_time in activity, event entities" />
     <MESSAGE value="[FIX] added CRUD for User personal UserNotes" />
     <MESSAGE value="[FIX] added 30+ targets per activity check" />
@@ -674,7 +669,9 @@
     <MESSAGE value="[FIX] findAllSegmentsByOratory (pageable)" />
     <MESSAGE value="[FIX] Exception, removed redundant code with getUserFromToken()" />
     <MESSAGE value="[FIX] syntax" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] syntax" />
+    <MESSAGE value="[FIX] Exception handling" />
+    <MESSAGE value="[FEATURE] added loggingAspect for automated logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added loggingAspect for automated logs" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
