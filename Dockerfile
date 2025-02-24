@@ -6,7 +6,7 @@ FROM maven:latest AS build
 WORKDIR /app
 
 # Copia il pom.xml e il file di progetto
-COPY spring-oratorio360-be/pom.xml ./
+COPY ./spring-oratorio360-be /app/spring-oratorio360-be
 
 # Scarica le dipendenze Maven
 RUN mvn dependency:go-offline
