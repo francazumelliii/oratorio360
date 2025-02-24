@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added dockerfile" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added dockerfile">
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,15 +198,7 @@
       <workItem from="1740316088186" duration="387000" />
       <workItem from="1740316485001" duration="276000" />
       <workItem from="1740316794642" duration="11048000" />
-      <workItem from="1740388068737" duration="5455000" />
-    </task>
-    <task id="LOCAL-00077" summary="[FEATURE] added custom messages for MethodArgumentNotValidExpException">
-      <option name="closed" value="true" />
-      <created>1739980555332</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1739980555332</updated>
+      <workItem from="1740388068737" duration="5505000" />
     </task>
     <task id="LOCAL-00078" summary="[FEATURE] added swagger dependency">
       <option name="closed" value="true" />
@@ -590,7 +584,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740395460894</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="[FEATURE] added dockerfile">
+      <option name="closed" value="true" />
+      <created>1740395537643</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1740395537644</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

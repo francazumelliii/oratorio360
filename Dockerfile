@@ -1,5 +1,5 @@
 # Fase di build: Usa l'immagine Maven con OpenJDK 17 per costruire l'app
-FROM maven:3.8.6-openjdk-17 AS build
+FROM maven:3.8.6-jdk-17-slim AS build
 
 # Imposta la directory di lavoro
 WORKDIR /app
