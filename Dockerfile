@@ -30,3 +30,8 @@ EXPOSE 8080
 
 # Esegui l'applicazione Spring Boot
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
+
+# docker build --platform linux/amd64 -t francazumelli/spring-oratorio360-be:latest .
+# docker login
+# docker push francazumelli/spring-oratorio360-be:latest
