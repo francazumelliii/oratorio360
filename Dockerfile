@@ -1,34 +1,34 @@
-# Fase di build: Usa l'immagine Maven con OpenJDK 17 per costruire l'app
+# Use Maven image
 FROM maven:latest AS build
 
-# Imposta la directory di lavoro
+# work directory setup
 WORKDIR /app
 
-# Copia il pom.xml e il file di progetto
+# copy pom.xml
 COPY ./spring-oratorio360-be/pom.xml /app/
 
-# Scarica le dipendenze Maven
+# download Maven dependencies
 RUN mvn dependency:go-offline
 
-# Copia il codice sorgente nel contenitore
+# copy source code in the container
 COPY ./spring-oratorio360-be/src /app/src
 
-# Compila il progetto Maven e crea il file .jar
+# compile maven project and generate .jar
 RUN mvn clean package -DskipTests
 
-# Fase di runtime: Usa l'immagine di Java per eseguire il file .jar
+# runtime: use maven image to run .jar file
 FROM openjdk:17-jdk-slim
 
-# Imposta la directory di lavoro
+# work directory setup
 WORKDIR /app
 
-# Copia il file .jar generato dalla fase di build
+# copy .jar file generated during build phase
 COPY --from=build /app/target/*.jar app.jar
 
-# Espone la porta su cui il server Spring Boot sarà in ascolto
+# expose 8080 port
 EXPOSE 8080
 
-# Esegui l'applicazione Spring Boot
+# execure SpringBoot application
 ENTRYPOINT ["java", "-jar", "app.jar"]
 
 
