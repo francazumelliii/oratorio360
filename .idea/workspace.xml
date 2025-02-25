@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] activityController, eventController, spaceController combination to oratoryController, fixed PageFilters orderBy nullable attribute">
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FIX] added latitude, longitude, townId to Space entity, update relative methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Space.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Space.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Town.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Town.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SpaceRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SpaceRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/SpaceResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/SpaceResponseDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,15 +220,7 @@
       <workItem from="1740388068737" duration="7949000" />
       <workItem from="1740398053168" duration="11554000" />
       <workItem from="1740471139799" duration="5094000" />
-      <workItem from="1740479938710" duration="705000" />
-    </task>
-    <task id="LOCAL-00089" summary="[FIX] added oratory joinColumn to Segment entity">
-      <option name="closed" value="true" />
-      <created>1740076197193</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1740076197194</updated>
+      <workItem from="1740479938710" duration="1297000" />
     </task>
     <task id="LOCAL-00090" summary="[FIX] added release_date, release_time in activity, event entities">
       <option name="closed" value="true" />
@@ -619,7 +606,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740413637831</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="[FIX] added latitude, longitude, townId to Space entity, update relative methods">
+      <option name="closed" value="true" />
+      <created>1740480692698</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1740480692698</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +685,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] added customized filters for events, activities and users" />
     <MESSAGE value="[FIX] fixed spring jpa properties" />
     <MESSAGE value="[FIX] fixed authController refactoring imports" />
     <MESSAGE value="[FIX] fixed docker config" />
@@ -715,7 +709,8 @@
     <MESSAGE value="[FEATURE] added Swagger tags config" />
     <MESSAGE value="[FEATURE] added Swagger operation descriptions" />
     <MESSAGE value="[FIX] activityController, eventController, spaceController combination to oratoryController, fixed PageFilters orderBy nullable attribute" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] activityController, eventController, spaceController combination to oratoryController, fixed PageFilters orderBy nullable attribute" />
+    <MESSAGE value="[FIX] added latitude, longitude, townId to Space entity, update relative methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] added latitude, longitude, townId to Space entity, update relative methods" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
