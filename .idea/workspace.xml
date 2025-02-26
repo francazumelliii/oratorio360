@@ -4,15 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] CRUD EmergencyContacts for user">
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added logs for AdminService, PdfService and UserService">
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/exception/ConflictException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/ActivityInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/ActivityInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/EventUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/EventUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Target.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/ActivityRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/ActivityRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/EventRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/EventRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/ActivityResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/ActivityResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/SpaceResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/SpaceResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/specifications/ActivitySpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/specifications/ActivitySpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/specifications/EventSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/specifications/EventSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/RefreshTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/RefreshTokenService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/PdfService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/PdfService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/GeocodingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/GeocodingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/ImageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/JwtHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/JwtHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,15 +240,9 @@
       <workItem from="1740398053168" duration="11554000" />
       <workItem from="1740471139799" duration="5094000" />
       <workItem from="1740479938710" duration="10387000" />
-      <workItem from="1740494083416" duration="5845000" />
-    </task>
-    <task id="LOCAL-00094" summary="[FIX] fixed findAll request with all published activities">
-      <option name="closed" value="true" />
-      <created>1740246709417</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1740246709418</updated>
+      <workItem from="1740494083416" duration="5894000" />
+      <workItem from="1740563251909" duration="2377000" />
+      <workItem from="1740575303422" duration="4810000" />
     </task>
     <task id="LOCAL-00095" summary="[FIX] fixed findAll request with all published events">
       <option name="closed" value="true" />
@@ -620,7 +628,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740490035286</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="[FEATURE] added logs for AdminService, PdfService and UserService">
+      <option name="closed" value="true" />
+      <created>1740502264405</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1740502264405</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,7 +707,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] added releaseDate, releaseTime for activities" />
     <MESSAGE value="[FEATURE] added Filters for activities (Admin)" />
     <MESSAGE value="[FIX] added PaginationFiltersParam for Pagination Request params" />
     <MESSAGE value="[FEATURE] added segment CRUD + findAll + assign to user + remove from user" />
@@ -716,7 +731,8 @@
     <MESSAGE value="[FEATURE] added geolocationService (from address String to LocationDTO response)" />
     <MESSAGE value="[FIX] fixed controllers swagger config" />
     <MESSAGE value="[FEATURE] CRUD EmergencyContacts for user" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] CRUD EmergencyContacts for user" />
+    <MESSAGE value="[FEATURE] added logs for AdminService, PdfService and UserService" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added logs for AdminService, PdfService and UserService" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
