@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added logs">
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added HttpRequestMethodNotSupportedException handling">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/461d42e0-3970-49e8-9a4e-4e65639a9da4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/461d42e0-3970-49e8-9a4e-4e65639a9da4/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/461d42e0-3970-49e8-9a4e-4e65639a9da4/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/461d42e0-3970-49e8-9a4e-4e65639a9da4/storage_v2/_src_/schema/oratorio360.Lk0rUA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/461d42e0-3970-49e8-9a4e-4e65639a9da4/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/461d42e0-3970-49e8-9a4e-4e65639a9da4/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/exception/UniqueConstraintExists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/EventCustomers.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/EventCustomers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/EventCustomersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/EventCustomersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/EventUsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/EventUsersRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +40,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="44c8db445a76cf468c199966adc94d802e5dfc65" />
-        <entry key="$PROJECT_DIR$/spring-oratorio360-be" value="main" />
+        <entry key="$PROJECT_DIR$/spring-oratorio360-be" value="feature/admin" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-oratorio360-be" />
@@ -79,7 +92,7 @@
     &quot;Spring Boot.Oratorio360BeApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.RemoteApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.SpringSecurityRefreshTokenApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/admin&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fc85b5fb&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/francazumelli/Code/oratorio360_be/spring-oratorio360-be/src/main/resources&quot;,
@@ -224,71 +237,11 @@
       <workItem from="1740494083416" duration="5894000" />
       <workItem from="1740563251909" duration="2377000" />
       <workItem from="1740575303422" duration="4810000" />
-      <workItem from="1740651294592" duration="1007000" />
-    </task>
-    <task id="LOCAL-00095" summary="[FIX] fixed findAll request with all published events">
-      <option name="closed" value="true" />
-      <created>1740246726925</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1740246726925</updated>
-    </task>
-    <task id="LOCAL-00096" summary="[FEATURE] added findAllEvents with filters">
-      <option name="closed" value="true" />
-      <created>1740246746509</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1740246746510</updated>
-    </task>
-    <task id="LOCAL-00097" summary="[FEATURE] added releaseDate, releaseTime to DTO">
-      <option name="closed" value="true" />
-      <created>1740246757823</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1740246757823</updated>
-    </task>
-    <task id="LOCAL-00098" summary="[FEATURE] added customized filters for events, activities and users">
-      <option name="closed" value="true" />
-      <created>1740246772981</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1740246772981</updated>
-    </task>
-    <task id="LOCAL-00099" summary="[FIX] fixed spring jpa properties">
-      <option name="closed" value="true" />
-      <created>1740246788797</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1740246788797</updated>
-    </task>
-    <task id="LOCAL-00100" summary="[FIX] fixed authController refactoring imports">
-      <option name="closed" value="true" />
-      <created>1740303742019</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1740303742019</updated>
-    </task>
-    <task id="LOCAL-00101" summary="[FIX] fixed authController refactoring imports">
-      <option name="closed" value="true" />
-      <created>1740303833152</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1740303833152</updated>
-    </task>
-    <task id="LOCAL-00102" summary="[FIX] fixed authController refactoring imports">
-      <option name="closed" value="true" />
-      <created>1740304015281</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1740304015281</updated>
+      <workItem from="1740651294592" duration="2665000" />
+      <workItem from="1740664019713" duration="1684000" />
+      <workItem from="1740730700356" duration="8013000" />
+      <workItem from="1740901910366" duration="382000" />
+      <workItem from="1740902302850" duration="581000" />
     </task>
     <task id="LOCAL-00103" summary="[FIX] fixed authController refactoring imports">
       <option name="closed" value="true" />
@@ -618,7 +571,71 @@
       <option name="project" value="LOCAL" />
       <updated>1740502264405</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="[FIX] date and time checks on event creation/ update">
+      <option name="closed" value="true" />
+      <created>1740652353439</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1740652353439</updated>
+    </task>
+    <task id="LOCAL-00145" summary="[REFACTOR] refactor: exceptionName (InvalidFormatException)">
+      <option name="closed" value="true" />
+      <created>1740824176028</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1740824176029</updated>
+    </task>
+    <task id="LOCAL-00146" summary="[FIX] Date time checks">
+      <option name="closed" value="true" />
+      <created>1740824200783</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1740824200783</updated>
+    </task>
+    <task id="LOCAL-00147" summary="[FEATURE] added create / update customers">
+      <option name="closed" value="true" />
+      <created>1740824211282</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1740824211282</updated>
+    </task>
+    <task id="LOCAL-00148" summary="[FEATURE] added dataIntegrityViolationException">
+      <option name="closed" value="true" />
+      <created>1740824229724</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1740824229724</updated>
+    </task>
+    <task id="LOCAL-00149" summary="[FEATURE] added customer request / response DTOs">
+      <option name="closed" value="true" />
+      <created>1740824246079</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1740824246079</updated>
+    </task>
+    <task id="LOCAL-00150" summary="[FIX] fixed 'gender' attribute validation">
+      <option name="closed" value="true" />
+      <created>1740824267968</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1740824267968</updated>
+    </task>
+    <task id="LOCAL-00151" summary="[FEATURE] added HttpRequestMethodNotSupportedException handling">
+      <option name="closed" value="true" />
+      <created>1740824287088</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1740824287088</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -689,14 +706,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] added Filters for activities (Admin)" />
-    <MESSAGE value="[FIX] added PaginationFiltersParam for Pagination Request params" />
-    <MESSAGE value="[FEATURE] added segment CRUD + findAll + assign to user + remove from user" />
-    <MESSAGE value="[FIX] getters and setters" />
-    <MESSAGE value="[FEATURE] added segment DTOs for requests and responses" />
-    <MESSAGE value="[FEATURE] [WIP] todo: activityCollection" />
-    <MESSAGE value="[FIX] findAllSegmentsByOratory (pageable)" />
-    <MESSAGE value="[FIX] Exception, removed redundant code with getUserFromToken()" />
     <MESSAGE value="[FIX] syntax" />
     <MESSAGE value="[FIX] Exception handling" />
     <MESSAGE value="[FEATURE] added loggingAspect for automated logs" />
@@ -714,7 +723,15 @@
     <MESSAGE value="[FIX] fixed controllers swagger config" />
     <MESSAGE value="[FEATURE] CRUD EmergencyContacts for user" />
     <MESSAGE value="[FEATURE] added logs for AdminService, PdfService and UserService" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added logs for AdminService, PdfService and UserService" />
+    <MESSAGE value="[FIX] date and time checks on event creation/ update" />
+    <MESSAGE value="[REFACTOR] refactor: exceptionName (InvalidFormatException)" />
+    <MESSAGE value="[FIX] Date time checks" />
+    <MESSAGE value="[FEATURE] added create / update customers" />
+    <MESSAGE value="[FEATURE] added dataIntegrityViolationException" />
+    <MESSAGE value="[FEATURE] added customer request / response DTOs" />
+    <MESSAGE value="[FIX] fixed 'gender' attribute validation" />
+    <MESSAGE value="[FEATURE] added HttpRequestMethodNotSupportedException handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added HttpRequestMethodNotSupportedException handling" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
