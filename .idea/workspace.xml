@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added joinEvent for users">
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added remove user / customer from event and added MissingPathVariableException handler">
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/advice/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/UserNotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/UserNotes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/ActivityRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/ActivityRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/EventRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/EventRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SegmentRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SegmentRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SpaceRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/SpaceRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/UserNotesRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/UserNotesRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/UserNotesResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/UserNotesResponseDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +91,7 @@
     "Spring Boot.Oratorio360BeApplication.executor": "Run",
     "Spring Boot.RemoteApplication.executor": "Run",
     "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
-    "git-widget-placeholder": "90fab2e9",
+    "git-widget-placeholder": "eba93c55",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be/spring-oratorio360-be/src/main/resources",
@@ -231,14 +241,6 @@
       <workItem from="1740730700356" duration="8013000" />
       <workItem from="1740901910366" duration="382000" />
       <workItem from="1740902302850" duration="581000" />
-    </task>
-    <task id="LOCAL-00106" summary="[FIX] fixed docker config">
-      <option name="closed" value="true" />
-      <created>1740304529398</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1740304529398</updated>
     </task>
     <task id="LOCAL-00107" summary="[FIX] fixed docker config">
       <option name="closed" value="true" />
@@ -624,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740910440383</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="[FEATURE] added remove user / customer from event and added MissingPathVariableException handler">
+      <option name="closed" value="true" />
+      <created>1740913753178</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1740913753178</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,7 +705,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] added dockerfile" />
     <MESSAGE value="[FEATURE] added environment variable file" />
     <MESSAGE value="[FEATURE] divided test and dev profiles" />
     <MESSAGE value="[FEATURE] added findTownsByCounty, findCountiesByRegion, findRegionsByState methods" />
@@ -720,7 +729,8 @@
     <MESSAGE value="[FIX] fixed beans" />
     <MESSAGE value="[FEATURE] added addCustomerToEvent method and created JoinEventResponseDTO DTO" />
     <MESSAGE value="[FEATURE] added joinEvent for users" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added joinEvent for users" />
+    <MESSAGE value="[FEATURE] added remove user / customer from event and added MissingPathVariableException handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added remove user / customer from event and added MissingPathVariableException handler" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
