@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added staffSubscription request sending method">
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added entertainer request DELETE, REJECT for ADMIN and findAllRequests, deleteEntertainerRequest for user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/StaffSubscriptionResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/StaffSubscriptionResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/StaffSubscriptionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/StaffSubscriptionRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IAdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IUserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,37 +70,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.Dockerfile build.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.Oratorio360BeApplication.executor": "Run",
-    "Spring Boot.RemoteApplication.executor": "Run",
-    "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
-    "git-widget-placeholder": "f39a7a16",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be/spring-oratorio360-be/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "swagger",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.Dockerfile build.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Oratorio360BeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RemoteApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringSecurityRefreshTokenApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;882e6a91&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/francazumelli/Code/oratorio360_be/spring-oratorio360-be/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;swagger&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources" />
@@ -244,15 +240,8 @@
       <workItem from="1741354371512" duration="361000" />
       <workItem from="1741355800259" duration="599000" />
       <workItem from="1741594313215" duration="43000" />
-      <workItem from="1741595400923" duration="12423000" />
-    </task>
-    <task id="LOCAL-00111" summary="[FIX] create event releaseDate time check not after startDate time">
-      <option name="closed" value="true" />
-      <created>1740307291682</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1740307291682</updated>
+      <workItem from="1741595400923" duration="12646000" />
+      <workItem from="1741681146722" duration="4469000" />
     </task>
     <task id="LOCAL-00112" summary="[FEATURE] added releaseDate, releaseTime for activities">
       <option name="closed" value="true" />
@@ -638,7 +627,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741614700488</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="[FEATURE] added entertainer request DELETE, REJECT for ADMIN and findAllRequests, deleteEntertainerRequest for user">
+      <option name="closed" value="true" />
+      <created>1741625250667</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1741625250668</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -709,7 +706,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FIX] paths" />
     <MESSAGE value="[FEATURE] added Swagger tags config" />
     <MESSAGE value="[FEATURE] added Swagger operation descriptions" />
     <MESSAGE value="[FIX] activityController, eventController, spaceController combination to oratoryController, fixed PageFilters orderBy nullable attribute" />
@@ -734,7 +730,8 @@
     <MESSAGE value="[FEATURE] added interface for AdminService and UserService" />
     <MESSAGE value="[FEATURE] fixed oratoryId (taken by logged user )" />
     <MESSAGE value="[FEATURE] added staffSubscription request sending method" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added staffSubscription request sending method" />
+    <MESSAGE value="[FEATURE] added entertainer request DELETE, REJECT for ADMIN and findAllRequests, deleteEntertainerRequest for user" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added entertainer request DELETE, REJECT for ADMIN and findAllRequests, deleteEntertainerRequest for user" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
