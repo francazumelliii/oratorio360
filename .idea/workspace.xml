@@ -4,11 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] refactor abstractModel, added Ranking, UserRanking entities">
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added UserRankingRepository and UserRankingResponseDTO with build method">
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/UserRankingRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/RankingResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/UserRankingResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/RankingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/UserRankingRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/enums/ERaking.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/enums/ERaking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Ranking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/UserRanking.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/UserRanking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IAdminService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -87,7 +94,7 @@
     "Spring Boot.Oratorio360BeApplication.executor": "Run",
     "Spring Boot.RemoteApplication.executor": "Run",
     "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
-    "git-widget-placeholder": "92d6d11d",
+    "git-widget-placeholder": "ab72c6d3",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be/spring-oratorio360-be/src/main/resources",
@@ -99,7 +106,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "swagger",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -244,15 +251,7 @@
       <workItem from="1741594313215" duration="43000" />
       <workItem from="1741595400923" duration="12646000" />
       <workItem from="1741681146722" duration="4469000" />
-      <workItem from="1741686594634" duration="8339000" />
-    </task>
-    <task id="LOCAL-00114" summary="[FIX] added PaginationFiltersParam for Pagination Request params">
-      <option name="closed" value="true" />
-      <created>1740326481179</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1740326481179</updated>
+      <workItem from="1741686594634" duration="13366000" />
     </task>
     <task id="LOCAL-00115" summary="[FEATURE] added segment CRUD + findAll + assign to user + remove from user">
       <option name="closed" value="true" />
@@ -638,7 +637,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741691102440</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="[FEATURE] added Rankin, UsersRanking entities">
+      <option name="closed" value="true" />
+      <created>1741702319372</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1741702319372</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -709,8 +716,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FIX] activityController, eventController, spaceController combination to oratoryController, fixed PageFilters orderBy nullable attribute" />
-    <MESSAGE value="[FIX] added latitude, longitude, townId to Space entity, update relative methods" />
     <MESSAGE value="[FIX] fixed update space method" />
     <MESSAGE value="[FEATURE] added geolocationService (from address String to LocationDTO response)" />
     <MESSAGE value="[FIX] fixed controllers swagger config" />
@@ -734,7 +739,9 @@
     <MESSAGE value="[FEATURE] added entertainer request DELETE, REJECT for ADMIN and findAllRequests, deleteEntertainerRequest for user" />
     <MESSAGE value="[FEATURE] added removeUserFromStaff and findAllUserStaffSubscritions for admin" />
     <MESSAGE value="[FEATURE] refactor abstractModel, added Ranking, UserRanking entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] refactor abstractModel, added Ranking, UserRanking entities" />
+    <MESSAGE value="[FEATURE] added Rankin, UsersRanking entities" />
+    <MESSAGE value="[FEATURE] added UserRankingRepository and UserRankingResponseDTO with build method" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added UserRankingRepository and UserRankingResponseDTO with build method" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
