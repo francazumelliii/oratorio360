@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added UserRankingRepository and UserRankingResponseDTO with build method">
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/UserRankingRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/RankingResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/UserRankingResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/RankingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/UserRankingRepository.java" afterDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] added CRUD UserRanking">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Ranking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/UserRanking.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/UserRanking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AuthController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IAdminService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +87,7 @@
     "Spring Boot.Oratorio360BeApplication.executor": "Run",
     "Spring Boot.RemoteApplication.executor": "Run",
     "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
-    "git-widget-placeholder": "ab72c6d3",
+    "git-widget-placeholder": "1aeb0e58",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be/spring-oratorio360-be/src/main/resources",
@@ -251,15 +244,7 @@
       <workItem from="1741594313215" duration="43000" />
       <workItem from="1741595400923" duration="12646000" />
       <workItem from="1741681146722" duration="4469000" />
-      <workItem from="1741686594634" duration="13366000" />
-    </task>
-    <task id="LOCAL-00115" summary="[FEATURE] added segment CRUD + findAll + assign to user + remove from user">
-      <option name="closed" value="true" />
-      <created>1740326520283</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1740326520284</updated>
+      <workItem from="1741686594634" duration="14462000" />
     </task>
     <task id="LOCAL-00116" summary="[FIX] getters and setters">
       <option name="closed" value="true" />
@@ -645,7 +630,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741702319372</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="[FEATURE] added CRUD UserRanking">
+      <option name="closed" value="true" />
+      <created>1741710910661</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1741710910661</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -716,7 +709,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FIX] fixed update space method" />
     <MESSAGE value="[FEATURE] added geolocationService (from address String to LocationDTO response)" />
     <MESSAGE value="[FIX] fixed controllers swagger config" />
     <MESSAGE value="[FEATURE] CRUD EmergencyContacts for user" />
@@ -741,7 +733,8 @@
     <MESSAGE value="[FEATURE] refactor abstractModel, added Ranking, UserRanking entities" />
     <MESSAGE value="[FEATURE] added Rankin, UsersRanking entities" />
     <MESSAGE value="[FEATURE] added UserRankingRepository and UserRankingResponseDTO with build method" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added UserRankingRepository and UserRankingResponseDTO with build method" />
+    <MESSAGE value="[FEATURE] added CRUD UserRanking" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] added CRUD UserRanking" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
