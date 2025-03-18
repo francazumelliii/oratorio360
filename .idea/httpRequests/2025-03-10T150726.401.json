@@ -1,0 +1,6 @@
+{
+  "statusCode": 401,
+  "timestamp": "2025-03-10 14:07:26",
+  "message": "Bad credentials",
+  "details": "Invalid email or password"
+}

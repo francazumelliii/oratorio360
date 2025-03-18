@@ -1,0 +1,5 @@
+# domain	path	name	value	date
+
+
+localhost	/api	jwt	eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmcmFuY2F6dW1lbGxpaWkiLCJpYXQiOjE3NDE2MTU3NjUsImV4cCI6MTc0MTcwMjE2NX0.mAax5hTy7trRdxSJab0XneT5b8M27kKo-QZOptiDRcE	Mon, 10-Mar-2025 14:10:52
+localhost	/api/auth/refreshtoken	jwt-refresh	52655ab6-70da-4f28-a0be-0e1f81b19da3	Mon, 10-Mar-2025 14:10:52

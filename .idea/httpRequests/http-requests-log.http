@@ -1,0 +1,124 @@
+POST http://localhost:8080/api/auth/signin
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "francazumelliii",
+  "password": "password"
+}
+
+<> 2025-03-10T150925.200.json
+
+###
+
+POST http://localhost:8080/api/user/me/staff/request
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-03-10T150911.401.json
+
+###
+
+POST http://localhost:8080/api/user/me/staff/request
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-03-10T150908.401.json
+
+###
+
+POST http://localhost:8080/api/user/me/staff/request
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: jwt=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmcmFuY2F6dW1lbGxpaWkiLCJpYXQiOjE3NDE2MTU2NTEsImV4cCI6MTc0MTcwMjA1MX0.crF_rsc0HH3AbgfsV1GouteK_MLkOUOCXnJs3qkKlrY
+content-length: 0
+
+<> 2025-03-10T150743.500.json
+
+###
+
+POST http://localhost:8080/api/auth/signin
+Content-Type: application/json
+Content-Length: 61
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "francazumelliii",
+  "password": "password"
+}
+
+<> 2025-03-10T150732.200.json
+
+###
+
+POST http://localhost:8080/api/auth/signin
+Content-Type: application/json
+Content-Length: 59
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "francazumelli",
+  "password": "password"
+}
+
+<> 2025-03-10T150726.401.json
+
+###
+
+POST http://localhost:8080/api/auth/signin
+Content-Type: application/json
+Content-Length: 38
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "username": "",
+  "password": ""
+}
+
+<> 2025-03-10T150716.400.json
+
+###
+
+POST http://localhost:8080/api/user/me/staff/request
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-03-10T150702.401.json
+
+###
+
+POST http://localhost:8080/api/user/me/notes
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-03-04T101620.401.json
+
+###
+
+GET http://localhost:8080/api/public/towns/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-03-04T101610.200.json
+
+###
+

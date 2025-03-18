@@ -1,0 +1,9 @@
+{
+  "statusCode": 400,
+  "timestamp": "2025-03-10 14:07:16",
+  "message": "Validation Failed",
+  "details": {
+    "username": "Username field must not be blank",
+    "password": "Password field must not be blank"
+  }
+}
