@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE] refactor IllegalArgumentException to BadRequestException, InvalidDate and InvalidTime Exceptions" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE][WIP] fixing 18+ method verifications">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/UserResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/UserResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/UserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/security/services/UserDetailsImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="44c8db445a76cf468c199966adc94d802e5dfc65" />
+        <entry key="$PROJECT_DIR$" value="feature/permissions" />
         <entry key="$PROJECT_DIR$/spring-oratorio360-be" value="feature/admin" />
       </map>
     </option>
@@ -76,13 +82,14 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Oratorio360BeApplication.executor": "Run",
     "Spring Boot.RemoteApplication.executor": "Run",
     "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
-    "git-widget-placeholder": "73a433b5",
+    "git-widget-placeholder": "35c22aa7",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be/spring-oratorio360-be/src/main/resources",
@@ -96,7 +103,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -177,6 +184,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Docker.Dockerfile: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -247,38 +255,8 @@
       <workItem from="1741686594634" duration="14462000" />
       <workItem from="1742061927996" duration="1552000" />
       <workItem from="1742220099482" duration="1451000" />
-    </task>
-    <task id="LOCAL-00119" summary="[FEATURE] [WIP] todo: activityCollection">
-      <option name="closed" value="true" />
-      <created>1740326630511</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1740326630511</updated>
-    </task>
-    <task id="LOCAL-00120" summary="[FIX] findAllSegmentsByOratory (pageable)">
-      <option name="closed" value="true" />
-      <created>1740327004988</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1740327004988</updated>
-    </task>
-    <task id="LOCAL-00121" summary="[FIX] Exception, removed redundant code with getUserFromToken()">
-      <option name="closed" value="true" />
-      <created>1740329034669</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1740329034669</updated>
-    </task>
-    <task id="LOCAL-00122" summary="[FIX] syntax">
-      <option name="closed" value="true" />
-      <created>1740329078663</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1740329078663</updated>
+      <workItem from="1742304471940" duration="9617000" />
+      <workItem from="1742371862891" duration="7196000" />
     </task>
     <task id="LOCAL-00123" summary="[FIX] Exception handling">
       <option name="closed" value="true" />
@@ -640,7 +618,39 @@
       <option name="project" value="LOCAL" />
       <updated>1742230009452</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="[FEATURE] added TutorType for user tutors and tutees">
+      <option name="closed" value="true" />
+      <created>1742398557068</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1742398557068</updated>
+    </task>
+    <task id="LOCAL-00169" summary="[FEATURE] added register tutee method">
+      <option name="closed" value="true" />
+      <created>1742398581258</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1742398581258</updated>
+    </task>
+    <task id="LOCAL-00170" summary="[FEATURE] added SecurityExpression for adult verification">
+      <option name="closed" value="true" />
+      <created>1742398614247</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1742398614247</updated>
+    </task>
+    <task id="LOCAL-00171" summary="[FEATURE] added AccessDeniedException handler">
+      <option name="closed" value="true" />
+      <created>1742398638727</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1742398638727</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,12 +667,12 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="feature/admin" />
+                  <option value="main" />
                 </option>
               </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="main" />
+                  <option value="feature/admin" />
                 </option>
               </RecentGroup>
               <RecentGroup>
@@ -695,7 +705,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature/admin" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -711,11 +721,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] CRUD EmergencyContacts for user" />
-    <MESSAGE value="[FEATURE] added logs for AdminService, PdfService and UserService" />
-    <MESSAGE value="[FIX] date and time checks on event creation/ update" />
-    <MESSAGE value="[REFACTOR] refactor: exceptionName (InvalidFormatException)" />
-    <MESSAGE value="[FIX] Date time checks" />
     <MESSAGE value="[FEATURE] added create / update customers" />
     <MESSAGE value="[FEATURE] added dataIntegrityViolationException" />
     <MESSAGE value="[FEATURE] added customer request / response DTOs" />
@@ -736,7 +741,12 @@
     <MESSAGE value="[FEATURE] added CRUD UserRanking" />
     <MESSAGE value="[FEATURE] added InvalidDateException and InvalidTimeException for Error Responses" />
     <MESSAGE value="[FEATURE] refactor IllegalArgumentException to BadRequestException, InvalidDate and InvalidTime Exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE] refactor IllegalArgumentException to BadRequestException, InvalidDate and InvalidTime Exceptions" />
+    <MESSAGE value="[FEATURE] added TutorType for user tutors and tutees" />
+    <MESSAGE value="[FEATURE] added register tutee method" />
+    <MESSAGE value="[FEATURE] added SecurityExpression for adult verification" />
+    <MESSAGE value="[FEATURE] added AccessDeniedException handler" />
+    <MESSAGE value="[FEATURE][WIP] fixing 18+ method verifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE][WIP] fixing 18+ method verifications" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
