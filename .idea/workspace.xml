@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE][WIP] refactor: added IRankingService, INoteService">
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE][WIP] refactor: added ISegmentService, ISpaceService">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/OratoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/OratoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/SegmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/SegmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/SpaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/SpaceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/ISegmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/ISegmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/ISpaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/ISpaceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/StaffService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/StaffService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IStaffService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IStaffService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +87,7 @@
     "Spring Boot.Oratorio360BeApplication.executor": "Run",
     "Spring Boot.RemoteApplication.executor": "Run",
     "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
-    "git-widget-placeholder": "7f2bb1ed",
+    "git-widget-placeholder": "fbb9d7b3",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be/spring-oratorio360-be/src/main/resources",
@@ -259,15 +256,7 @@
       <workItem from="1742304471940" duration="9617000" />
       <workItem from="1742371862891" duration="9183000" />
       <workItem from="1742736653075" duration="2448000" />
-      <workItem from="1742899755985" duration="1942000" />
-    </task>
-    <task id="LOCAL-00135" summary="[FEATURE] added Swagger tags config">
-      <option name="closed" value="true" />
-      <created>1740407663312</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1740407663313</updated>
+      <workItem from="1742899755985" duration="2107000" />
     </task>
     <task id="LOCAL-00136" summary="[FEATURE] added Swagger operation descriptions">
       <option name="closed" value="true" />
@@ -653,7 +642,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742901295406</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="[FEATURE][WIP] refactor: added ISegmentService, ISpaceService">
+      <option name="closed" value="true" />
+      <created>1742901763435</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1742901763435</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -724,7 +721,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] added Rankin, UsersRanking entities" />
     <MESSAGE value="[FEATURE] added UserRankingRepository and UserRankingResponseDTO with build method" />
     <MESSAGE value="[FEATURE] added CRUD UserRanking" />
     <MESSAGE value="[FEATURE] added InvalidDateException and InvalidTimeException for Error Responses" />
@@ -749,7 +745,8 @@
     <MESSAGE value="[FEATURE][WIP] added interface for services" />
     <MESSAGE value="[FEATURE][WIP] refactor: added IEventService interface" />
     <MESSAGE value="[FEATURE][WIP] refactor: added IRankingService, INoteService" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE][WIP] refactor: added IRankingService, INoteService" />
+    <MESSAGE value="[FEATURE][WIP] refactor: added ISegmentService, ISpaceService" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE][WIP] refactor: added ISegmentService, ISpaceService" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
