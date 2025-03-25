@@ -4,29 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE][WIP] refactor SpaceService and SpaceController">
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/EmergencyContactController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/SegmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IEmergencyContactService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IEventService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/INoteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IRankingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/ISegmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/ISpaceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IStaffService.java" afterDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE][WIP] added interface for services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/NoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/RankingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/RankingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/StaffController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/StaffController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/EmergencyContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/EmergencyContactService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IEventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IEventService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,40 +72,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Docker.Dockerfile build.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Oratorio360BeApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.RemoteApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SpringSecurityRefreshTokenApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;b05f7ccb&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/francazumelli/Code/oratorio360_be/spring-oratorio360-be/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.Dockerfile build.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Oratorio360BeApplication.executor": "Run",
+    "Spring Boot.RemoteApplication.executor": "Run",
+    "Spring Boot.SpringSecurityRefreshTokenApplication.executor": "Run",
+    "git-widget-placeholder": "8693915c",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/francazumelli/Code/oratorio360_be/spring-oratorio360-be/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources" />
@@ -275,63 +257,7 @@
       <workItem from="1742304471940" duration="9617000" />
       <workItem from="1742371862891" duration="9183000" />
       <workItem from="1742736653075" duration="2448000" />
-      <workItem from="1742899755985" duration="537000" />
-    </task>
-    <task id="LOCAL-00126" summary="[FEATURE] added dockerfile">
-      <option name="closed" value="true" />
-      <created>1740395537643</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1740395537644</updated>
-    </task>
-    <task id="LOCAL-00127" summary="[FEATURE] added dockerfile">
-      <option name="closed" value="true" />
-      <created>1740395586372</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1740395586372</updated>
-    </task>
-    <task id="LOCAL-00128" summary="[FEATURE] added dockerfile">
-      <option name="closed" value="true" />
-      <created>1740395684793</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1740395684793</updated>
-    </task>
-    <task id="LOCAL-00129" summary="[FEATURE] added dockerfile">
-      <option name="closed" value="true" />
-      <created>1740395791734</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1740395791734</updated>
-    </task>
-    <task id="LOCAL-00130" summary="[FEATURE] added dockerfile">
-      <option name="closed" value="true" />
-      <created>1740396006349</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1740396006350</updated>
-    </task>
-    <task id="LOCAL-00131" summary="[FEATURE] added environment variable file">
-      <option name="closed" value="true" />
-      <created>1740407578674</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1740407578675</updated>
-    </task>
-    <task id="LOCAL-00132" summary="[FEATURE] divided test and dev profiles">
-      <option name="closed" value="true" />
-      <created>1740407589496</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1740407589496</updated>
+      <workItem from="1742899755985" duration="996000" />
     </task>
     <task id="LOCAL-00133" summary="[FEATURE] added findTownsByCounty, findCountiesByRegion, findRegionsByState methods">
       <option name="closed" value="true" />
@@ -669,7 +595,63 @@
       <option name="project" value="LOCAL" />
       <updated>1742893102195</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="[FEATURE][WIP] refactor CustomerService, CustomerController">
+      <option name="closed" value="true" />
+      <created>1742900339933</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1742900339933</updated>
+    </task>
+    <task id="LOCAL-00176" summary="[FEATURE][WIP] refactor EmergencyContactController,EmergencyContactService">
+      <option name="closed" value="true" />
+      <created>1742900360997</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1742900360997</updated>
+    </task>
+    <task id="LOCAL-00177" summary="[FEATURE][WIP] refactor EventController">
+      <option name="closed" value="true" />
+      <created>1742900375856</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1742900375856</updated>
+    </task>
+    <task id="LOCAL-00178" summary="[FEATURE][WIP] refactor NoteController">
+      <option name="closed" value="true" />
+      <created>1742900386409</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1742900386409</updated>
+    </task>
+    <task id="LOCAL-00179" summary="[FEATURE][WIP] refactor RankingController">
+      <option name="closed" value="true" />
+      <created>1742900396928</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1742900396928</updated>
+    </task>
+    <task id="LOCAL-00180" summary="[FEATURE][WIP] refactor StaffController and EventController">
+      <option name="closed" value="true" />
+      <created>1742900411918</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1742900411918</updated>
+    </task>
+    <task id="LOCAL-00181" summary="[FEATURE][WIP] added interface for services">
+      <option name="closed" value="true" />
+      <created>1742900423977</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1742900423977</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -740,13 +722,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE] added addCustomerToEvent method and created JoinEventResponseDTO DTO" />
-    <MESSAGE value="[FEATURE] added joinEvent for users" />
-    <MESSAGE value="[FEATURE] added remove user / customer from event and added MissingPathVariableException handler" />
-    <MESSAGE value="[FEATURE] added interface for AdminService and UserService" />
-    <MESSAGE value="[FEATURE] fixed oratoryId (taken by logged user )" />
-    <MESSAGE value="[FEATURE] added staffSubscription request sending method" />
-    <MESSAGE value="[FEATURE] added entertainer request DELETE, REJECT for ADMIN and findAllRequests, deleteEntertainerRequest for user" />
     <MESSAGE value="[FEATURE] added removeUserFromStaff and findAllUserStaffSubscritions for admin" />
     <MESSAGE value="[FEATURE] refactor abstractModel, added Ranking, UserRanking entities" />
     <MESSAGE value="[FEATURE] added Rankin, UsersRanking entities" />
@@ -765,7 +740,14 @@
     <MESSAGE value="[FEATURE][WIP] added permission entity" />
     <MESSAGE value="[FEATURE][WIP] added collection entity" />
     <MESSAGE value="[FEATURE][WIP] refactor SpaceService and SpaceController" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE][WIP] refactor SpaceService and SpaceController" />
+    <MESSAGE value="[FEATURE][WIP] refactor CustomerService, CustomerController" />
+    <MESSAGE value="[FEATURE][WIP] refactor EmergencyContactController,EmergencyContactService" />
+    <MESSAGE value="[FEATURE][WIP] refactor EventController" />
+    <MESSAGE value="[FEATURE][WIP] refactor NoteController" />
+    <MESSAGE value="[FEATURE][WIP] refactor RankingController" />
+    <MESSAGE value="[FEATURE][WIP] refactor StaffController and EventController" />
+    <MESSAGE value="[FEATURE][WIP] added interface for services" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE][WIP] added interface for services" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
