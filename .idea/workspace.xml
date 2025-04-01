@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE][WIP] added translation in Controllers">
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/SubscriptionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/ActivityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources/message-it.properties" afterDir="false" />
+    <list default="true" id="8c4ae513-94f2-4fad-8f58-3143b486c16f" name="Changes" comment="[FEATURE][WIP] added ActivityService">
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/ActivityReviewRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/ActivityResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/response/ActivityReviewResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/repository/CollectionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/interfaces/IActivityService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/TO.DO" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/TO.DO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/TargetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/TargetType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources/message-en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources/message-en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/controllers/ActivityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/models/Collection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/ActivityRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/ActivityRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/TargetRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/payload/request/TargetRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/ActivityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/java/com/project/oratorio360/spring/jwt/service/ActivityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources/messages.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +101,7 @@
     &quot;Spring Boot.Oratorio360BeApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.RemoteApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.SpringSecurityRefreshTokenApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;14082aaf&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ab406806&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/francazumelli/Code/oratorio360_be/spring-oratorio360-be/src/main/resources&quot;,
@@ -113,12 +119,6 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="QodanaReportsService">
-    <option name="descriptions">
-      <ReportDescription localRun="true" path="/private/var/folders/10/sm4sfv410zl09npfkmxc3fd00000gn/T/qodana_output1/qodana.sarif.json" reportGuid="7ff3fb82-bbdb-4d52-8016-055e21ba71c1" reportId="oratorio360_be/qodana/2025-03-25" />
-      <ReportDescription localRun="true" path="/private/var/folders/10/sm4sfv410zl09npfkmxc3fd00000gn/T/qodana_output/qodana.sarif.json" reportGuid="e272e756-e917-4217-a981-bcae62a05231" reportId="oratorio360_be/qodana/2025-03-25" />
-    </option>
-  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/spring-oratorio360-be/src/main/resources" />
@@ -155,10 +155,21 @@
       <method v="2" />
     </configuration>
     <configuration name="Oratorio360BeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="dev" />
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="oratorio360-be" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.oratorio360.spring.jwt.Oratorio360BeApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -275,23 +286,12 @@
       <workItem from="1742989883937" duration="13373000" />
       <workItem from="1743174642387" duration="5499000" />
       <workItem from="1743405172552" duration="20000" />
-      <workItem from="1743408874594" duration="2706000" />
-    </task>
-    <task id="LOCAL-00144" summary="[FIX] date and time checks on event creation/ update">
-      <option name="closed" value="true" />
-      <created>1740652353439</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1740652353439</updated>
-    </task>
-    <task id="LOCAL-00145" summary="[REFACTOR] refactor: exceptionName (InvalidFormatException)">
-      <option name="closed" value="true" />
-      <created>1740824176028</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1740824176029</updated>
+      <workItem from="1743408874594" duration="5485000" />
+      <workItem from="1743416317543" duration="6430000" />
+      <workItem from="1743491864551" duration="1128000" />
+      <workItem from="1743493000629" duration="123000" />
+      <workItem from="1743493754914" duration="14889000" />
+      <workItem from="1743521057223" duration="680000" />
     </task>
     <task id="LOCAL-00146" summary="[FIX] Date time checks">
       <option name="closed" value="true" />
@@ -669,7 +669,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743007989936</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="[FEATURE] added italian traslation">
+      <option name="closed" value="true" />
+      <created>1743411617669</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1743411617669</updated>
+    </task>
+    <task id="LOCAL-00194" summary="[FEATURE][WIP] added ActivityService">
+      <option name="closed" value="true" />
+      <created>1743411650192</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1743411650192</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -740,8 +756,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/spring-security-refresh-token-jwt" />
     </ignored-roots>
-    <MESSAGE value="[FEATURE][WIP] fixing 18+ method verifications" />
-    <MESSAGE value="[FEATURE][WIP] added DictionaryInitializer for dictionary db initialization" />
     <MESSAGE value="[FEATURE][WIP] added Tutor entity" />
     <MESSAGE value="[FEATURE][WIP] added TargetType model, repository, enum" />
     <MESSAGE value="[FEATURE][WIP] added permission entity" />
@@ -765,7 +779,9 @@
     <MESSAGE value="[FEATURE][WIP] added translation in CustomerService and EventSer" />
     <MESSAGE value="[FEATURE][WIP] added translation in ImageService and NoteService" />
     <MESSAGE value="[FEATURE][WIP] added translation in Controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE][WIP] added translation in Controllers" />
+    <MESSAGE value="[FEATURE] added italian traslation" />
+    <MESSAGE value="[FEATURE][WIP] added ActivityService" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FEATURE][WIP] added ActivityService" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
